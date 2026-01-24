@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<div class="container">
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Description }}
+    <p class="page-description">{{ .Description }}</p>
+    {{ end }}
+  </header>
+
+  <!-- Featured Image -->
+  {{ if .Params.image }} {{ $image := .Params.image }} {{ if reflect.IsMap
+  $image }} {{ $position := $image.position | default "none" }} {{ if eq
+  $position "top" }}
+  <div class="featured-image featured-image-top">
+    <img
+      src="{{ $image.src | relURL }}"
+      alt="{{ $image.alt | default .Title }}"
+    />
+    {{ if $image.caption }}
+    <figcaption>{{ $image.caption }}</figcaption>
+    {{ end }}
+  </div>
+  {{ end }} {{ if or (eq $position "right") (eq $position "left") }}
+  <div class="featured-image featured-image-{{ $position }}">
+    <img
+      src="{{ $image.src | relURL }}"
+      alt="{{ $image.alt | default .Title }}"
+    />
+    {{ if $image.caption }}
+    <figcaption>{{ $image.caption }}</figcaption>
+    {{ end }}
+  </div>
+  {{ end }} {{ if eq $position "bottom" }}
+  <div class="featured-image featured-image-bottom">
+    <img
+      src="{{ $image.src | relURL }}"
+      alt="{{ $image.alt | default .Title }}"
+    />
+    {{ if $image.caption }}
+    <figcaption>{{ $image.caption }}</figcaption>
+    {{ end }}
+  </div>
+  {{ end }} {{ else }}
+  <!-- Si image es un string, mostrar como imagen centrada -->
+  <div class="featured-image featured-image-top">
+    <img src="{{ $image | relURL }}" alt="{{ .Title }}" />
+  </div>
+  {{ end }} {{ end }}
+
+  <!-- Page Content -->
+  <div class="page-content{{ if .Params.image }} with-image{{ end }}">
+    {{ .Content }}
+  </div>
+  <!-- Featured Image Bottom -->
+  {{ if and .Params.image (reflect.IsMap .Params.image) }} {{ $image :=
+  .Params.image }} {{ if eq $image.position "bottom" }}
+  <div class="featured-image featured-image-bottom">
+    <img
+      src="{{ $image.src | relURL }}"
+      alt="{{ $image.alt | default .Title }}"
+    />
+    {{ if $image.caption }}
+    <figcaption>{{ $image.caption }}</figcaption>
+    {{ end }}
+  </div>
+  {{ end }} {{ end }}
+</div>
+
+{{ end }}

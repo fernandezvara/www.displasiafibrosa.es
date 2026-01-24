@@ -1,0 +1,43 @@
+baseURL = 'https://www.displasiafibrosa.es'
+languageCode = 'es-es'
+title = 'ADF - Asociación de Displasia Fibrosa'
+
+[params]
+  description = "Asociación de Displasia Fibrosa - Ayudamos a afectados por DF y MAS"
+  author = "Asociación de Displasia Fibrosa"
+  logo = "/images/logo.svg"
+  
+[menu]
+  [[menu.main]]
+    name = "La Asociación"
+    url = "/asociacion/"
+    weight = 10
+    
+  [[menu.main]]
+    name = "La Enfermedad"
+    url = "/enfermedad/"
+    weight = 20
+    
+  [[menu.main]]
+    name = "Recursos"
+    url = "/recursos/"
+    weight = 30
+    
+  [[menu.main]]
+    name = "Noticias"
+    url = "/noticias/"
+    weight = 40
+    
+  [[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 50
+
+[pagination]
+  pagerSize = 6
+  path = 'page'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,104 @@
+{{ define "main" }}
+
+<div class="container">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Description }}
+        <p class="page-description">{{ .Description }}</p>
+        {{ end }}
+    </header>
+    
+    <div class="news-list">
+        {{ range .Paginator.Pages }}
+        <article class="news-item">
+            {{ if .Params.image }}
+            <div class="news-item-image">
+                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            </div>
+            {{ else }}
+            <div class="news-item-image placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
+                </svg>
+            </div>
+            {{ end }}
+            
+            <div class="news-item-content">
+                <div class="news-item-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}" class="news-item-date">
+                        {{ .Date.Format "2 January 2006" }}
+                    </time>
+                    {{ if .Params.author }}
+                    <span class="news-item-author">por {{ .Params.author }}</span>
+                    {{ end }}
+                </div>
+                
+                <h2 class="news-item-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                
+                <p class="news-item-excerpt">{{ .Summary }}</p>
+                
+                <a href="{{ .Permalink }}" class="news-item-link">
+                    Leer más
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+    
+    <!-- Pagination -->
+    {{ if gt .Paginator.TotalPages 1 }}
+    <nav class="pagination" role="navigation" aria-label="Navegación de noticias">
+        {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}" class="pagination-link pagination-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+            Anterior
+        </a>
+        {{ end }}
+        
+        <div class="pagination-numbers">
+            {{ $paginator := .Paginator }}
+            {{ $adjacent_links := 2 }}
+            {{ $max_links := (add (add $adjacent_links $adjacent_links) 1) }}
+            {{ $lower_limit := (sub $paginator.PageNumber $adjacent_links) }}
+            {{ $upper_limit := (add $paginator.PageNumber $adjacent_links) }}
+            
+            {{ if lt $lower_limit 1 }}
+                {{ $lower_limit = 1 }}
+                {{ $upper_limit = math.Min $max_links $paginator.TotalPages }}
+            {{ end }}
+            
+            {{ if gt $upper_limit $paginator.TotalPages }}
+                {{ $upper_limit = $paginator.TotalPages }}
+                {{ $lower_limit = math.Max 1 (sub $upper_limit (sub $max_links 1)) }}
+            {{ end }}
+            
+            {{ range $lower_limit.Inc $upper_limit }}
+                {{ $page := . }}
+                {{ if eq $page $paginator.PageNumber }}
+                <span class="pagination-current">{{ $page }}</span>
+                {{ else }}
+                <a href="{{ $paginator.URL $page }}" class="pagination-link">{{ $page }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
+        
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="pagination-link pagination-next">
+            Siguiente
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+        </a>
+        {{ end }}
+    </nav>
+    {{ end }}
+</div>
+
+{{ end }}

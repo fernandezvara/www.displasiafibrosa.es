@@ -1,0 +1,87 @@
+{{ define "main" }}
+
+<div class="container">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.intro }}
+    <p class="page-description">{{ .Params.intro }}</p>
+    {{ end }}
+  </header>
+
+  <div class="faq-container">
+    {{ range .Params.categories }}
+    <div class="faq-category">
+      <h2 class="faq-category-title">{{ .name }}</h2>
+
+      <div class="faq-questions">
+        {{ range .questions }}
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>{{ .q }}</span>
+            <svg
+              class="faq-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
+
+          <div class="faq-answer">
+            <div class="faq-answer-content">{{ .a | markdownify }}</div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+  function toggleFAQ(button) {
+    const faqItem = button.parentElement;
+    const answer = faqItem.querySelector(".faq-answer");
+    const icon = button.querySelector(".faq-icon");
+
+    // Close other items in the same category (optional - remove for multiple open)
+    const category = button.closest(".faq-category");
+    const otherItems = category.querySelectorAll(".faq-item");
+    otherItems.forEach((item) => {
+      if (item !== faqItem && item.classList.contains("active")) {
+        item.classList.remove("active");
+        item.querySelector(".faq-answer").style.maxHeight = null;
+        item.querySelector(".faq-icon").style.transform = "rotate(0deg)";
+      }
+    });
+
+    // Toggle current item
+    faqItem.classList.toggle("active");
+
+    if (faqItem.classList.contains("active")) {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+      icon.style.transform = "rotate(180deg)";
+    } else {
+      answer.style.maxHeight = null;
+      icon.style.transform = "rotate(0deg)";
+    }
+  }
+
+  // Initialize FAQ items
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqItems = document.querySelectorAll(".faq-item");
+    faqItems.forEach((item) => {
+      const answer = item.querySelector(".faq-answer");
+      answer.style.maxHeight = null;
+    });
+  });
+</script>
+
+{{ end }}
