@@ -1756,6 +1756,11 @@ figure {
   text-align: center;
 }
 
+figure img {
+  margin: 0;
+  padding: 0;
+}
+
 figure figcaption {
   text-align: center;
   font-size: small;
@@ -1834,10 +1839,9 @@ figure figcaption {
 }
 
 .page-content {
-  max-width: 800px;
   margin: 0 auto;
   padding: var(--space-2) 0;
-  line-height: 1.8;
+  line-height: var(--line-height);
 }
 
 .page-content.with-image {
@@ -1869,6 +1873,10 @@ figure figcaption {
 
 .page-content li {
   margin-bottom: var(--space-1);
+}
+
+.page-content ol li:last-child {
+  margin-bottom: var(--space-2);
 }
 
 .page-content blockquote {
