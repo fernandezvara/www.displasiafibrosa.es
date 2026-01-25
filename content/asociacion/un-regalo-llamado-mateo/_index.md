@@ -13,31 +13,29 @@ show_colabora: true
 
 Un cuento infantil cuyo protagonista es Mateo, que al nacer es diagnosticado de una enfermedad rara llamada Displasia Fibrosa (DF) y Síndrome de McCune-Albright (MAS) y su proceso hasta que Mateo cumple 10 años.
 
-[**Comprar libro en Amazon**](https://www.amazon.es/regalo-llamado-Mateo-H-D-CRUZ/dp/B08P6MZLTB)
+[**Comprar libro**](#comprar-libro)
 
 ---
 
 ## Sobre el Libro
 
-"**UN REGALO LLAMADO Mateo**"
-
-"Un regalo llamado Mateo" es un cuento infantil cuyo protagonista es Mateo, que al nacer es diagnosticado de una enfermedad rara llamada displasia fibrosa (DF) y síndrome de McCune-Albright (MAS). Este cuento infantil nos cuenta la vida desde que nace hasta que cumple 10 años.
+**Un regalo llamado Mateo** es un cuento infantil cuyo protagonista es Mateo, que al nacer es diagnosticado de una enfermedad rara llamada displasia fibrosa (DF) y síndrome de McCune-Albright (MAS). Este cuento infantil nos cuenta la vida desde que nace hasta que cumple 10 años.
 
 Con la venta de este cuento infantil queremos recaudar fondos para financiar la investigación y encontrar una cura para la DF/MAS.
 
-### LA ENFERMEDAD
+### La enfermedad
 
 La displasia fibrosa es una enfermedad rara en la que el tejido normal del hueso se sustituye por un tejido fibroso. Este tejido fibroso hace que el hueso afectado sea muy frágil. Su incidencia es de 1 afectado entre 15.000 o 30.000 personas.
 
 El síndrome de McCune-Albright también es una enfermedad rara que se define como la asociación de al menos dos de las siguientes alteraciones: displasia fibrosa, manchas en la piel, pubertad precoz, hipertiroidismo, exceso de hormona de crecimiento, pérdida urinaria de fosfato y síndrome de Cushing neonatal. Su incidencia es de 1 afectado entre 100.000 o 1.000.000 de personas.
 
-### ASOCIACIÓN DE DISPLASIA FIBROSA -ADF-
+### Asociación de Displasia Fibrosa -ADF-
 
 La ADF es una entidad sin ánimo de lucro que congrega a afectados por displasia fibrosa y síndrome de McCune-Albright, sus familiares y todas aquellas personas sensibilizadas con la problemática de esta enfermedad rara. Nuestra misión es visibilizar la enfermedad, mejorar la calidad de vida de los afectados y promover la investigación para la cura de la enfermedad.
 
 ---
 
-## Otras Versiones Idiomáticas
+## Mateo en tu idioma{#comprar-libro}
 
 Nuestro libro está disponible en múltiples idiomas para llegar a más familias afectadas en todo el mundo:
 
