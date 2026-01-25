@@ -123,6 +123,37 @@ p {
   margin-bottom: var(--space-2);
 }
 
+/* Alerts */
+.alert {
+  margin: var(--space-2) 0;
+}
+
+.alert-text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--gray-700);
+  background: var(--gray-50);
+  padding: var(--space-2) var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--navy-800);
+  margin: 0;
+}
+
+.alert-primary .alert-text {
+  background: var(--info-light);
+  border-color: var(--info);
+}
+
+.alert-success .alert-text {
+  background: var(--success-light);
+  border-color: var(--success);
+}
+
+.alert-warning .alert-text {
+  background: var(--warning-light);
+  border-left-color: var(--warning);
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -2012,7 +2043,7 @@ p {
 }
 
 .faq-answer-content {
-  padding: 0 var(--space-4) var(--space-4);
+  padding: var(--space-4) var(--space-4);
   color: var(--gray-700);
   line-height: 1.6;
 }

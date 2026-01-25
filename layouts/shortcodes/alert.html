@@ -1,0 +1,3 @@
+<section class="alert alert-{{ with .Get "type" }}{{ . }}{{ else }}primary{{ end }}">
+  <p class="alert-text">{{ .Inner }}</p>
+</section>
