@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
         menuToggle.addEventListener('click', function() {
             navList.classList.toggle('active');
             menuToggle.classList.toggle('active');
+            
+            // Prevent body scroll when menu is open
+            if (navList.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
         });
     }
     
@@ -15,7 +22,20 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!event.target.closest('.nav') && navList.classList.contains('active')) {
             navList.classList.remove('active');
             menuToggle.classList.remove('active');
+            document.body.style.overflow = '';
         }
+    });
+    
+    // Close mobile menu when clicking on dropdown links in mobile
+    const dropdownLinks = document.querySelectorAll('.dropdown-link');
+    dropdownLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                navList.classList.remove('active');
+                menuToggle.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
     });
 });
 
@@ -51,3 +71,15 @@ setActiveNavItem();
 
 // Update on navigation (for single page apps)
 window.addEventListener('popstate', setActiveNavItem);
+
+// Handle window resize for mobile menu
+window.addEventListener('resize', function() {
+    const navList = document.querySelector('.nav-list');
+    const menuToggle = document.querySelector('.menu-toggle');
+    
+    if (window.innerWidth > 768 && navList.classList.contains('active')) {
+        navList.classList.remove('active');
+        menuToggle.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+});

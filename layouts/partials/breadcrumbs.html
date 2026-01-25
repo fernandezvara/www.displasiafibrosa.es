@@ -2,18 +2,14 @@
     <div class="container">
         <ol class="breadcrumbs-list">
             <li><a href="{{ "/" | relURL }}">Inicio</a></li>
-            {{ $url := .RelPermalink }}
-            {{ $urlList := split $url "/" }}
-            {{ $last := len $urlList | sub 1 }}
-            {{ range $index, $element := $urlList }}
-                {{ if ne $element "" }}
-                    {{ if lt $index $last }}
-                        {{ $path := printf "/%s" (delimit (first (add $index 1) $urlList) "/") }}
-                        <li><a href="{{ $path | relURL }}">{{ title . }}</a></li>
-                    {{ else }}
-                        <li class="current">{{ title . }}</li>
-                    {{ end }}
+            {{ $currentPage := . }}
+            {{ range $currentPage.Ancestors.Reverse }}
+                {{ if not .IsHome }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                 {{ end }}
+            {{ end }}
+            {{ if not $currentPage.IsHome }}
+                <li class="current">{{ $currentPage.Title }}</li>
             {{ end }}
         </ol>
     </div>

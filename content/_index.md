@@ -26,7 +26,7 @@ sections:
   cta_contact: true
 ---
 
-La **ADF - Asociación de Displasia Fibrosa** comenzó su andadura en el año 2017, se constituyó el 30 de enero de 2018 y fue registrada en el Ministerio de Interior el 11 de mayo del 2018.
+La **Asociación de Displasia Fibrosa (ADF)** comenzó su andadura en el año 2017, se constituyó el 30 de enero de 2018 y fue registrada en el Ministerio de Interior el 11 de mayo del 2018.
 
 La ADF es una entidad sin ánimo de lucro que congrega a afectados por Displasia Fibrosa (DF) y Síndrome de McCune-Albright (MAS), sus familiares y personas sensibilizadas con la problemática de esta enfermedad. Asímismo, cuenta con la colaboración de profesionales de la salud y otras disciplinas relacionadas con esta patología.
 

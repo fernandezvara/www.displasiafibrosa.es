@@ -1,6 +1,6 @@
 baseURL = 'https://www.displasiafibrosa.es'
 languageCode = 'es-es'
-title = 'ADF - Asociación de Displasia Fibrosa'
+title = 'Asociación de Displasia Fibrosa'
 
 [params]
   description = "Asociación de Displasia Fibrosa - Ayudamos a afectados por DF y MAS"
@@ -14,24 +14,252 @@ title = 'ADF - Asociación de Displasia Fibrosa'
     weight = 10
     
   [[menu.main]]
+    name = "Quiénes somos"
+    url = "/asociacion/quienes-somos/"
+    parent = "La Asociación"
+    weight = 11
+    
+  [[menu.main]]
+    name = "Nuestros fines"
+    url = "/asociacion/nuestros-fines/"
+    parent = "La Asociación"
+    weight = 12
+    
+  [[menu.main]]
+    name = "Junta Directiva"
+    url = "/asociacion/junta-directiva/"
+    parent = "La Asociación"
+    weight = 13
+    
+  [[menu.main]]
+    name = "Comité Científico"
+    url = "/asociacion/comite-cientifico/"
+    parent = "La Asociación"
+    weight = 14
+    
+  [[menu.main]]
+    name = "Estatutos de la Asociación"
+    url = "/asociacion/estatutos-de-la-asociacion/"
+    parent = "La Asociación"
+    weight = 15
+    
+  [[menu.main]]
+    name = "Memoria de Actividades"
+    url = "/asociacion/memoria-de-actividades/"
+    parent = "La Asociación"
+    weight = 16
+    
+  [[menu.main]]
+    name = "Información Económica"
+    url = "/informacion-economica/"
+    parent = "La Asociación"
+    weight = 17
+    
+  [[menu.main]]
+    name = "Colaboradores"
+    url = "/asociacion/colaboradores/"
+    parent = "La Asociación"
+    weight = 18
+    
+  [[menu.main]]
+    name = "Un Regalo Llamado Mateo"
+    url = "/asociacion/un-regalo-llamado-mateo/"
+    parent = "La Asociación"
+    weight = 19
+    
+  [[menu.main]]
     name = "La Enfermedad"
     url = "/enfermedad/"
     weight = 20
     
   [[menu.main]]
-    name = "Recursos"
-    url = "/recursos/"
+    name = "Preguntas Frecuentes"
+    url = "/enfermedad/preguntas-frecuentes/"
+    parent = "La Enfermedad"
+    weight = 21
+    
+  [[menu.main]]
+    name = "Displasia Fibrosa"
+    url = "/enfermedad/displasia-fibrosa/"
+    parent = "La Enfermedad"
+    weight = 22
+    
+  [[menu.main]]
+    name = "Síndrome McCune-Albright"
+    url = "/enfermedad/sindrome-mccune-albright/"
+    parent = "La Enfermedad"
+    weight = 23
+    
+  [[menu.main]]
+    name = "Guía Médica"
+    url = "/enfermedad/guia-medica/"
+    parent = "La Enfermedad"
+    weight = 24
+    
+  [[menu.main]]
+    name = "Descargar guía médica"
+    url = "/descargar-guia-medica/"
+    parent = "La Enfermedad"
+    weight = 25
+    
+  [[menu.main]]
+    name = "Resumen"
+    url = "/resumen/"
+    parent = "La Enfermedad"
+    weight = 26
+    
+  [[menu.main]]
+    name = "Diagnóstico"
+    url = "/diagnostico/"
+    parent = "La Enfermedad"
+    weight = 27
+    
+  [[menu.main]]
+    name = "Características Clínicas"
+    url = "/caracteristicas-clinicas/"
+    parent = "La Enfermedad"
+    weight = 28
+    
+  [[menu.main]]
+    name = "Enfermedades genéticas relacionadas"
+    url = "/enfermedades-geneticas-relacionadas/"
+    parent = "La Enfermedad"
+    weight = 29
+    
+  [[menu.main]]
+    name = "Manejo Terapéutico"
+    url = "/manejo-terapeutico/"
+    parent = "La Enfermedad"
     weight = 30
+    
+  [[menu.main]]
+    name = "Consejo Genético"
+    url = "/consejo-genetico/"
+    parent = "La Enfermedad"
+    weight = 31
+    
+  [[menu.main]]
+    name = "Referencias"
+    url = "/referencias/"
+    parent = "La Enfermedad"
+    weight = 32
+    
+  [[menu.main]]
+    name = "Nueva Guía Médica 2019 (v.o. en Inglés)"
+    url = "/enfermedad/"
+    parent = "La Enfermedad"
+    weight = 33
+    
+  [[menu.main]]
+    name = "FD-MAS patient checklist"
+    url = "/wp-content/uploads/2022/02/01-FDMAS_patient_checklist.pdf"
+    parent = "La Enfermedad"
+    weight = 34
+    
+  [[menu.main]]
+    name = "Flowchart Assessing bones"
+    url = "/wp-content/uploads/2022/02/02-Flowchart_Assessing_bones.pdf"
+    parent = "La Enfermedad"
+    weight = 35
+    
+  [[menu.main]]
+    name = "Flowchart Managing FD of the skull"
+    url = "/wp-content/uploads/2022/02/03-Flowchart_Managing_FD_of_the_skull.pdf"
+    parent = "La Enfermedad"
+    weight = 36
+    
+  [[menu.main]]
+    name = "Flowchart treating bone pain"
+    url = "/wp-content/uploads/2022/02/04-Flowchart_treating_bone_pain.pdf"
+    parent = "La Enfermedad"
+    weight = 37
+    
+  [[menu.main]]
+    name = "Flowchart treating hormone problems"
+    url = "/wp-content/uploads/2022/02/05-Flowchart_treating_hormone_problems.pdf"
+    parent = "La Enfermedad"
+    weight = 38
+    
+  [[menu.main]]
+    name = "Flowchart Treatment thigh bone problems"
+    url = "/wp-content/uploads/2022/02/06-Flowchart_Treatment_thigh_bone_problems.pdf"
+    parent = "La Enfermedad"
+    weight = 39
+    
+  [[menu.main]]
+    name = "Best practice management guidelines"
+    url = "/wp-content/uploads/2022/02/07-Best-practice-management-guidelines.pdf"
+    parent = "La Enfermedad"
+    weight = 40
+    
+  [[menu.main]]
+    name = "Libro Blanco"
+    url = "/libro-blanco/"
+    parent = "La Enfermedad"
+    weight = 41
+    
+  [[menu.main]]
+    name = "Exención de responsabilidad"
+    url = "/exencion-de-responsabilidad/"
+    parent = "La Enfermedad"
+    weight = 42
     
   [[menu.main]]
     name = "Noticias"
     url = "/noticias/"
-    weight = 40
+    weight = 50
+    
+  [[menu.main]]
+    name = "Noticias y Eventos"
+    url = "/noticias/"
+    parent = "Noticias"
+    weight = 51
+    
+  [[menu.main]]
+    name = "Otras Asociaciones"
+    url = "/otras-asociaciones/"
+    parent = "Noticias"
+    weight = 52
+    
+  [[menu.main]]
+    name = "Publicaciones"
+    url = "/recursos/"
+    weight = 60
+    
+  [[menu.main]]
+    name = "Congreso Florencia 2019"
+    url = "/recursos/congresos/florencia-2019/"
+    parent = "Publicaciones"
+    weight = 61
+    
+  [[menu.main]]
+    name = "I Congreso Nacional Burgos 2019"
+    url = "/recursos/congresos/burgos-2019/"
+    parent = "Publicaciones"
+    weight = 62
+    
+  [[menu.main]]
+    name = "II Congreso Nacional 2021"
+    url = "/recursos/congresos/2021/"
+    parent = "Publicaciones"
+    weight = 63
+    
+  [[menu.main]]
+    name = "III Congreso Nacional 2022"
+    url = "/recursos/congresos/2022/"
+    parent = "Publicaciones"
+    weight = 64
+    
+  [[menu.main]]
+    name = "IV Congreso Nacional 2023"
+    url = "/recursos/congresos/2023/"
+    parent = "Publicaciones"
+    weight = 65
     
   [[menu.main]]
     name = "Contacto"
     url = "/contacto/"
-    weight = 50
+    weight = 70
 
 [pagination]
   pagerSize = 6
@@ -41,3 +269,6 @@ title = 'ADF - Asociación de Displasia Fibrosa'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[build]
+  writeStats = true
