@@ -19,7 +19,7 @@ Un cuento infantil cuyo protagonista es Mateo, que al nacer es diagnosticado de 
 
 ## Sobre el Libro
 
-"**UN REGALO LLAMADO MATEO**"
+"**UN REGALO LLAMADO Mateo**"
 
 "Un regalo llamado Mateo" es un cuento infantil cuyo protagonista es Mateo, que al nacer es diagnosticado de una enfermedad rara llamada displasia fibrosa (DF) y síndrome de McCune-Albright (MAS). Este cuento infantil nos cuenta la vida desde que nace hasta que cumple 10 años.
 
@@ -41,17 +41,17 @@ La ADF es una entidad sin ánimo de lucro que congrega a afectados por displasia
 
 Nuestro libro está disponible en múltiples idiomas para llegar a más familias afectadas en todo el mundo:
 
-| Idioma             | Título Original           | Tienda Amazon   | Enlace de Compra                                                             |
-| ------------------ | ------------------------- | --------------- | ---------------------------------------------------------------------------- |
-| 🇪🇸 **Español**     | Un regalo llamado Mateo   | Amazon España   | [Comprar](https://www.amazon.es/regalo-llamado-Mateo-H-D-CRUZ/dp/B08P6MZLTB) |
-| 🇦🇩 **Català**      | UN REGAL QUE ES DIU MATEU | Amazon España   | [Comprar](https://www.amazon.es/dp/B08PJD27JN)                               |
-| 🇪🇸 **Galego**      | UN REGALO CHAMADO MATEO   | Amazon España   | [Comprar](https://www.amazon.es/dp/B08PJM9P99)                               |
-| 🇺🇸 **English-USA** | A GIFT CALLED MATEO       | Amazon USA      | [Comprar](https://www.amazon.com/dp/B08PJWJSXG)                              |
-| 🇬🇧 **English-UK**  | A GIFT CALLED MATEO       | Amazon UK       | [Comprar](https://www.amazon.co.uk/dp/B08PJGDZP5)                            |
-| 🇳🇱 **Nederlands**  | EEN CADEAU GENAAMD MATEO  | Amazon Alemania | [Comprar](https://www.amazon.de/dp/B08PJG7HK1)                               |
-| 🇵🇹 **Português**   | UM PRESENTE CHAMADO MATEO | Amazon Francia  | [Comprar](https://www.amazon.fr/dp/B08PJK75SH)                               |
-| 🇫🇷 **Français**    | UN CADEAU APPELÉ MATEO    | Amazon Francia  | [Comprar](https://www.amazon.fr/dp/B08PJK75SH)                               |
-| 🇮🇹 **Italiano**    | UN REGALO DI NOME MATTEO  | Amazon Italia   | [Comprar](https://www.amazon.it/dp/B08PJWKQN9)                               |
+| Idioma             | Título Original           | Tienda     |                                                                              |
+| ------------------ | ------------------------- | ---------- | ---------------------------------------------------------------------------- |
+| 🇪🇸 **Español**     | Un regalo llamado Mateo   | Amazon ES  | [Comprar](https://www.amazon.es/regalo-llamado-Mateo-H-D-CRUZ/dp/B08P6MZLTB) |
+| 🇦🇩 **Català**      | Un regal que es diu Mateu | Amazon ES  | [Comprar](https://www.amazon.es/dp/B08PJD27JN)                               |
+| 🇪🇸 **Galego**      | Un regalo chamado Mateo   | Amazon ES  | [Comprar](https://www.amazon.es/dp/B08PJM9P99)                               |
+| 🇺🇸 **English-USA** | A gift called Mateo       | Amazon USA | [Comprar](https://www.amazon.com/dp/B08PJWJSXG)                              |
+| 🇬🇧 **English-UK**  | A gift called Mateo       | Amazon UK  | [Comprar](https://www.amazon.co.uk/dp/B08PJGDZP5)                            |
+| 🇳🇱 **Nederlands**  | Een cadeau gennamd Mateo  | Amazon DE  | [Comprar](https://www.amazon.de/dp/B08PJG7HK1)                               |
+| 🇵🇹 **Português**   | Um presente chamado Mateo | Amazon FR  | [Comprar](https://www.amazon.fr/dp/B08PJK75SH)                               |
+| 🇫🇷 **Français**    | Un cadeau appelé Mateo    | Amazon FR  | [Comprar](https://www.amazon.fr/dp/B08PJK75SH)                               |
+| 🇮🇹 **Italiano**    | Un regalo di nome Matteo  | Amazon IT  | [Comprar](https://www.amazon.it/dp/B08PJWKQN9)                               |
 
 ---
 
