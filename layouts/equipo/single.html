@@ -2,16 +2,6 @@
 
 <div class="container">
   <header class="page-header">
-    <nav class="breadcrumbs">
-      <div class="container">
-        <ol class="breadcrumbs-list">
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/asociacion/">La Asociación</a></li>
-          <li><a href="/asociacion/junta-directiva/">Junta Directiva</a></li>
-          <li class="current">{{ .Title }}</li>
-        </ol>
-      </div>
-    </nav>
     <h1>{{ .Title }}</h1>
     {{ if .Params.position }}
     <p class="page-description">{{ .Params.position }}</p>

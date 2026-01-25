@@ -7,5 +7,3 @@ institution: "Hospital Universitario de Getafe"
 photo: "/images/comite-cientifico/ana-maria-bueno.jpg"
 order: 2
 ---
-
-La Dra. Ana María Bueno Sánchez es una referente nacional en el tratamiento de enfermedades óseas raras en niños. Su amplia experiencia en el tratamiento ortopédico-quirúrgico de pacientes con fragilidad ósea, incluyendo más de 300 casos de osteogénesis imperfecta y displasia fibrosa, la convierte en una pieza fundamental del Comité Científico de la ADF.
