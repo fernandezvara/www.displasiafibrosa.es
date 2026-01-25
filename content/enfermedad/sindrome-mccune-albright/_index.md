@@ -1,12 +1,10 @@
 ---
 title: "Síndrome McCune-Albright"
-description: "Qué es el Síndrome McCune-Albright. Asociación de Displasia Fibrosa"
+description: "Qué es el Síndrome McCune-Albright (MAS)"
 show_colabora: true
 ---
 
-## Síndrome de McCune-Albright (MAS)
-
-MAS es la abreviatura en inglés de McCune-Albright Syndrome.
+MAS es la abreviatura en inglés de **McCune-Albright Syndrome**.
 
 La DF puede existir de manera aislada, o asociada a trastornos de la piel (los pacientes pueden presentar áreas de piel hiperpigmentadas denominadas "manchas de café con leche") y trastornos del sistema endocrino (los trastornos endocrinos asociados a la DF son: pubertad precoz, hipertiroidismo, exceso de hormona de crecimiento, pérdida urinaria de fosfato y Síndrome de Cushing neonatal).
 

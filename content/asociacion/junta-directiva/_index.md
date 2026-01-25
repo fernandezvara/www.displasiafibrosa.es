@@ -2,7 +2,7 @@
 title: "Junta Directiva"
 description: "Conoce al equipo directivo de la Asociación de Displasia Fibrosa"
 type: "equipo"
-layout: "equipo"
+layout: "list"
 show_colabora: true
 ---
 
