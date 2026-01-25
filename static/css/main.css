@@ -71,8 +71,13 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--orange-300);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--orange-600);
+  text-decoration: underline;
 }
 
 img {
@@ -177,6 +182,7 @@ p {
 
 .btn-primary:hover {
   background: var(--navy-700);
+  text-decoration: none;
 }
 
 .btn-secondary {
@@ -186,6 +192,8 @@ p {
 
 .btn-secondary:hover {
   background: var(--orange-600);
+  color: var(--white);
+  text-decoration: none;
 }
 
 .btn-outline {
@@ -196,6 +204,7 @@ p {
 
 .btn-outline:hover {
   background: var(--navy-50);
+  text-decoration: none;
 }
 
 /* Header */
@@ -410,6 +419,7 @@ p {
 
 .breadcrumbs-list a:hover {
   color: var(--navy-800);
+  text-decoration: none;
 }
 
 .breadcrumbs-list .current {
@@ -1741,41 +1751,17 @@ p {
     text-align: right;
   }
 }
-/* Book cover styles */
-.book-cover {
+/* figures */
+figure {
   text-align: center;
-  margin: var(--space-4) 0;
 }
 
-.book-image {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  border: 8px solid var(--white);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+figure figcaption {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
 }
 
-.book-image:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
-}
-
-@media (max-width: 768px) {
-  .book-image {
-    width: 300px;
-    height: 300px;
-    border-width: 6px;
-  }
-}
-@media (max-width: 480px) {
-  .book-image {
-    width: 250px;
-    height: 250px;
-    border-width: 4px;
-  }
-}
 /* Page Content */
 .page-header {
   text-align: center;
@@ -1850,7 +1836,7 @@ p {
 .page-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: var(--space-4) 0;
+  padding: var(--space-2) 0;
   line-height: 1.8;
 }
 
