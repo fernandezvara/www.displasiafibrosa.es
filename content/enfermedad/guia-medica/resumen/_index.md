@@ -6,25 +6,25 @@ show_colabora: true
 
 ### Autores:
 
-**Dra. Alison M Boyce, MD:**
+**Dra. Alison M Boyce, MD**
 
 Pediatra endocrino especializada en la evaluación de enfermedades esqueléticas en niños y adolescentes con especial énfasis en la Displasia Fibrosa/Síndrome de McCune-Albright. Realiza su trabajo investigador en los Institutos Nacionales de la Salud (NIH) en Bethesda, Maryland, EEUU. Forma parte del equipo de la sección de Enfermedades Esqueléticas y de la Homeostasis Mineral (del inglés Skeletal Disorders and Mineral Homeastasis Section, SDMHS).
 
-**Dr. Pablo Florenzano, MD:**
+**Dr. Pablo Florenzano, MD**
 
 Endocrinólogo especializado en la evaluación y tratamiento de enfermedades óseas en adultos. Realiza su trabajo investigador en la Pontificia Universidad Católica de Chile.
 
-**Dr. Luis Fernández de Castro, PhD:**
+**Dr. Luis Fernández de Castro, PhD**
 
 Biólogo del SDMHS del NIH. Realiza investigación básica y traslacional sobre enfermedades óseas y de metabolismo mineral.
 
-**Dr. Michael T Collins, MD:**
+**Dr. Michael T Collins, MD**
 
 Endocrinólogo especializado en enfermedades raras del hueso y del metabolismo mineral. Jefe del SDMHS del NIH.
 
 Traducción al castellano:
 
-**Dra. Diana Ovejero Crespo:**
+**Dra. Diana Ovejero Crespo**
 
 Endocrina especializada en la evaluación de enfermedades esqueléticas. Actualmente realiza su investigación en el Instituto de Investigaciones Médicas del Hospital del Mar (IMIM) en Barcelona.
 
