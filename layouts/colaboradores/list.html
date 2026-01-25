@@ -11,8 +11,8 @@
   <div class="page-content">
     <!-- Introduction Slot -->
     {{ if .Params.introduction }}
-    <section class="introduction-section">
-      <p class="introduction-text">{{ .Params.introduction }}</p>
+    <section class="alert alert-info">
+      <p class="alert-text">{{ .Params.introduction }}</p>
     </section>
     {{ end }}
 
@@ -88,21 +88,6 @@
 </div>
 
 <style>
-  .introduction-section {
-    margin: var(--space-2) 0;
-  }
-
-  .introduction-text {
-    font-size: 1.2rem;
-    line-height: 1.7;
-    color: var(--gray-700);
-    background: var(--gray-50);
-    padding: var(--space-2) var(--space-5);
-    border-radius: var(--radius-lg);
-    border-left: 4px solid var(--navy-800);
-    margin: 0;
-  }
-
   .institutions-section {
     margin: var(--space-8) 0;
   }

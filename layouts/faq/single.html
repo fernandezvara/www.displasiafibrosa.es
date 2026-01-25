@@ -3,10 +3,14 @@
 <div class="container">
   <header class="page-header">
     <h1>{{ .Title }}</h1>
-    {{ if .Params.intro }}
-    <p class="page-description">{{ .Params.intro }}</p>
+    {{ if .Params.description }}
+    <p class="page-description">{{ .Params.description }}</p>
+    {{ end }} {{ if .Params.intro }}
+    <p>{{ .Params.intro }}</p>
     {{ end }}
   </header>
+
+  <div class="page-content">{{ .Content }}</div>
 
   <div class="faq-container">
     {{ range .Params.categories }}
