@@ -47,14 +47,3 @@ Fundada por familias afectadas y profesionales comprometidos, la ADF ha crecido 
 ## Únete a Nosotros
 
 Si tú o un familiar estáis afectados por Displasia Fibrosa o Síndrome de McCune-Albright, o si simplemente quieres colaborar con nuestra causa, te invitamos a formar parte de nuestra comunidad.
-
----
-
-**Explora nuestras secciones para conocer más sobre nosotros:**
-
-- [Quiénes somos](/asociacion/quienes-somos/) - Conoce nuestra historia y equipo
-- [Nuestros fines](/asociacion/nuestros-fines/) - Nuestra misión y objetivos
-- [Junta Directiva](/asociacion/junta-directiva/) - El equipo que dirige la asociación
-- [Comité Científico](/asociacion/comite-cientifico/) - Nuestros asesores médicos
-- [Colaboradores](/asociacion/colaboradores/) - Entidades que nos apoyan
-- [Un Regalo Llamado Mateo](/asociacion/un-regalo-llamado-mateo/) - Nuestro proyecto solidario

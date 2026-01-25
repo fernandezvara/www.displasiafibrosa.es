@@ -4,8 +4,6 @@ description: "Conoce los objetivos y fines de la Asociación de Displasia Fibros
 show_colabora: true
 ---
 
-# Nuestros Fines
-
 La **Asociación de Displasia Fibrosa (ADF)** es una entidad sin ánimo de lucro que promueve toda clase de acciones e información destinadas a mejorar la calidad de vida de las personas afectadas por la Displasia Fibrosa (DF) y el Síndrome de McCune-Albright (MAS), así como la de sus familiares.
 
 ## Nuestra Misión Principal
