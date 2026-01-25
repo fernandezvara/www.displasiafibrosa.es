@@ -33,8 +33,6 @@ El síndrome de McCune-Albright también es una enfermedad rara que se define co
 
 La ADF es una entidad sin ánimo de lucro que congrega a afectados por displasia fibrosa y síndrome de McCune-Albright, sus familiares y todas aquellas personas sensibilizadas con la problemática de esta enfermedad rara. Nuestra misión es visibilizar la enfermedad, mejorar la calidad de vida de los afectados y promover la investigación para la cura de la enfermedad.
 
----
-
 ## Mateo en tu idioma{#comprar-libro}
 
 Nuestro libro está disponible en múltiples idiomas para llegar a más familias afectadas en todo el mundo:

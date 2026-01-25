@@ -123,8 +123,7 @@ Todos nuestros colaboradores reciben:
 
 Si representas a una organización interesada en colaborar con nosotros, por favor contacta con:
 
-- **Nerea Arrieta** (Presidenta): nerea.arrieta@displasiafibrosa.es
-- **Carolina Ibáñez** (Vicepresidenta): carolina.ibanez@displasiafibrosa.es
+- **Carolina Ibáñez** (Presidenta): info@displasiafibrosa.es
 
 O utiliza nuestro formulario de contacto indicando el tipo de colaboración que te interesa.
 
