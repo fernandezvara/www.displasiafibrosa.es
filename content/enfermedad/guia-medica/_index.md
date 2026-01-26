@@ -18,8 +18,7 @@ Puedes descargar la guía médica completa en castellano en formato PDF [aquí](
 - [Características clínicas](#caracteristicas-clinicas)
 - [Diagnóstico](#diagnostico)
 - [Enfermedades genéticas relacionadas](#enfermedades-geneticas-relacionadas)
-- [Manejo terapéutico](#manejo-terapeutico)
-- [Seguimiento](#seguimiento)
+- [Manejo terapéutico y seguimiento](#manejo-terapeutico-y-seguimiento)
 - [Consejo genético](#consejo-genetico)
 - [Referencias](#referencias)
 
@@ -327,7 +326,7 @@ Estas lesiones aparecen habitualmente en niños menores de 10 años y afectan co
 
 Se caracteriza por el crecimiento progresivo de lesiones fibro-óseas principalmente en la mandíbula y el maxilar. Suele manifestarse en la infancia con un agrandamiento bilateral y simétrico de la parte inferior de la cara proporcionando un aspecto típico de “querubín” en la que los ojos parecen estar mirando hacia arriba. La deformidad facial progresa durante la infancia y la pubertad, tras la cual ocasionalmente involuciona espontáneamente. En la mayoría de los casos, el querubismo es consecuencia de mutaciones heterocigotas en el gen SH3BP2 y sigue un patrón de herencia autosómico dominante.
 
-## Manejo terapéutico{#manejo-terapeutico}
+## Manejo terapéutico y seguimiento{#manejo-terapeutico-y-seguimiento}
 
 ### Evaluaciones tras el diagnóstico inicial
 
@@ -479,6 +478,142 @@ Si bien es cierto que los efectos del embarazo sobre el hueso y las enfermedades
 Buscar en [ClinicalTrials.gov](https://clinicaltrials.gov) para pacientes en EEUU y en [www.ClinicalTrialsRegister.eu](https://www.clinicaltrialsregister.eu) en aquellos que vivan en Europa. Estas páginas contienen información sobre ensayos clínicos para una gran variedad de enfermedades.
 
 NOTA: es posible que en el momento en el que usted consulte estas páginas, no haya ensayos clínicos activos para la DF/MAS.
+
+## Consejo Genético{#consejo-genetico}
+
+El consejo genético es el proceso en el que se proporciona información a individuos afectos y familiares sobre la naturaleza, los patrones de herencia genética, e implicaciones de una determinada alteración genética para ayudarles a tomar decisiones personales y médicas informadas. La siguiente sección no pretende abordar todas las cuestiones personales, culturales, o éticas que un individuo pueda presentar en relación a su condición ni tampoco puede sustituir la visita con un genetista profesional.
+
+### Patrón de Herencia Genética
+
+La Displasia fibrosa/Síndrome de McCune-Albright no se heredan:
+
+- No hay ningún caso descrito de transmisión vertical.
+- La información molecular disponible indica que todos los individuos afectos son mosaicos para la mutación GNAS la cual se origina durante el desarrollo embrionario temprano.
+
+### Riesgo a otros familiares
+
+**Padres del probando**: No se ha descrito ningún caso en el que los padres de un individuo con DF/MAS presenten manifestaciones típicas de la enfermedad. Tampoco son hallazgos esperables dada la naturaleza somática de la enfermedad.
+
+**Hermanos y otros familiares del probando**: dada que la DF/MAS se origina por una mutación somática, el riesgo que tiene un hermano y otros familiares de desarrollar la enfermedad es el mismo que el de la población general, es decir, no se requiere realizar una evaluación a los familiares del probando.
+
+**Riesgo de recurrencia**: El riesgo de recurrencia de esta enfermedad en embarazos posteriores no está incrementado respecto al de la población general.
+No se requiere realizar una evaluación especial a los familiares del probando.
+
+**Hijos del probando**: no existen casos descritos de transmisión vertical de la DF/MAS. Se especula que la transmisión vertical resultaría en la letalidad del embrión.
+
+**Test prenatal**: Dado que la DF/MAS es secundaria a una mutación somática postzigótica y que no se hereda, no está indicado realizar diagnóstico prenatal para esta enfermedad.
+
+**Banco de DNA**: se refiere al almacenaje de muestras de DNA típicamente extraídas de leucocitos de sangre periférica. Dado que es muy probable que la metodología empleada para el diagnóstico genético, y nuestros conocimientos sobre genética en general, mejoren en un futuro, podría ser de utilidad el almacenamiento de muestras de DNA de individuos afectos.
+
+### Genética molecular
+
+**Estructura del gen**: GNAS es un locus complejo sometido a impronta genética (genetic imprinting) con 4 exones y promotores del cual derivan múltiples productos génico (Weinstein et al 2004). El locus cromosómico es 20q13.32. El producto génico principal de GNAS, derivado del exón 1, es la subunidad alfa de la proteína fijadora de nucleótido de guanina (Gsα) la cual está expresada en los tejidos de forma ubicua. Las entradas OMIM para el locus GNAS son 139320 y para MAS 174800.
+
+**Variantes patogénicas**: Se ha identificado la mutación somática con cambio de sentido (missense mutation) p.Arg201 en más del 95% de los casos publicados de DF/MAS. Las variantes patogénicas más frecuentes son p.Arg201His y p.Arg201Cys (Lumbroso et al 2004). Más raramente, la arginina es sustituida por serina, glicina o leucina. También se ha reportado, aunque de manera excepcional, la variante patogénica p.Gln227 (Idowu et al 2007).
+
+Hay métodos experimentales que se están desarrollando para aumentar la sensibilidad de identificación de las variantes patogénicas e incluso la cuantificación del porcentaje de células mutadas en una muestra (Bianco et al 2000, Narumi et al 2013, de Sanctis et al 2017) (ver Tabla 7). Estos métodos podrían incluso facilitar el diagnóstico en muestras de leucocitos de sangre periférica.
+
+{{< figure
+src="/images/guias-medicas/tabla-7.jpg"
+alt="Técnicas disponibles para la Detección de Variantes Patogénicas en pacientes con Displasia Fibrosa/Síndrome de McCune-Albright"
+caption="Tabla 7. Técnicas disponibles para la Detección de Variantes Patogénicas en pacientes con Displasia Fibrosa/Síndrome de McCune-Albright" >}}
+
+1. La capacidad de detección de la variante depende del nivel de mosaicismo en el tejido y de la sensibilidad de la técnica empleada. La tasa de detección más elevada de la variante p.Arg201 usando PCR convencional se da órganos endocrinos, mientras que la más baja se da en muestras de piel. Lumbroso et al 2004, Kalfa et al 2006
+2. Bianco et al 2000
+3. Narumi et al 2013
+4. De Sanctis et al 2017
+
+Estudios recientes han implicado a variantes alternativas de transcripción de GNAS en la patogénesis de DF/MAS. Se ha identificado una variante, p.Arg543His, en el producto de transcripción XLαs de Gsα (correspondería a la posición p.Arg201His en Gsα), en individuos con variantes patogénicas de origen paterno. También se ha identificado una mutación en la proteína secretora neuroendocrina (NESP55), que es otro producto de transcripción de GNAS, en tejidos afectos de individuos con variantes patogénicas de origen materno. Se han realizado estudios funcionales in vitro en XLα natural que han demostrado que esta variante de GNAS tiene la capacidad de inducir la actividad de la adenil ciclasa de manera efectiva, sugiriendo que esta variante podría contribuir a la patogénesis de la DF (Mariot el al 2011).
+
+{{< figure
+src="/images/guias-medicas/tabla-8.jpg"
+alt="Variantes de GNAS Somáticas Comentadas en esta Revisión"
+caption="Tabla 8. Variantes de GNAS Somáticas Comentadas en esta Revisión" >}}
+
+**Producto genético normal**: GNAS codifica la proteína Gsα la cual está asociada a la vía del AMP cíclico (cAMP). Gsα es un componente clave de muchas vías de señalización hormonal. Su rol principal es el de acoplar la proteína G con la adenil ciclasa resultando en la producción intracelular de cAMP. En su estado inactivo, la proteína Gsα forma un heterotrímero con las subunidades Gsß y Gsy, el cual va unido a una molecula de GDP. Tras la unión del ligando al receptor acoplado a la proteína G, se produce una sustitución de GDP a GTP lo cual resulta en la disociación de Gsα de las otras subunidades y en la interacción con la adenil ciclasa para inducir la producción de cAMP. Un mecanismo de actividad GTPasa hidroliza el GTP a GDP resultando en el cese de la generación de cAMP y en el reensamblaje del heterotrímero α-ß-y.
+
+**Producto genético anómalo**: Las variantes patogénicas asociadas a la DF/MAS del gen GNAS p.Arg201 y p.Gln227 alteran la actividad GTPasa de Gsα causando la hiperactividad de la proteína y la producción excesiva de cAMP (Landis et al 1989).
+
+Las manifestaciones clínicas del DF/MAS varían desde hallazgos incidentales asintomáticos a la letalidad neonatal. El fenotipo de la DF/MAS es un reflejo del rol de Gsα en ese tejido y de los tejidos portadores de la mutación. La distribución de los tejidos afectos es un reflejo del momento del desarrollo embrionario en el que ocurrió la mutación y en la capacidad de diferenciarse en diferentes tejidos de la célula mutada. Es probable que las células madre de algunos tejidos no toleren la mutación de Gsα y se eliminen durante el desarrollo embrionario. Por ejemplo, se especula que, aunque la señalización por Gsα sea muy importante en el cartílago de crecimiento, este tejido seguramente elimine las células mutadas ya que casi nunca está afectado en DF/MAS.
+
+Las mutaciones de GNAS asociadas a la DF/MAS son el resultado de mutaciones somáticas postzigóticas por lo que es una enfermedad que existe exclusivamente el estado mosaico. Se especula que, si esta mutación existiera a nivel germinal, es decir, si todas las células estuvieran afectadas, resultaría en la letalidad embrionaria.
+
+### Cáncer y tumores benignos
+
+Las variantes de GNAS asociadas a DF/MAS p.Arg201 y p.Gln221 (conocidas como el oncogén gsp) se han descrito en tumores benignos (Landis et al 1989) y malignos (Wood et al 2007). No obstante, la presencia aislada de estas variantes de GNAS es insuficiente para la transformación maligna de tejidos afectos, aunque probablemente predisponga para la aparición de nuevas mutaciones a nivel genético y/o epigenético.
+
+## Referencias{#referencias}
+
+- Amit M, Collins MT, FitzGibbon EJ, Butman JA, Fliss DM, Gil Z. Surgery versus watchful waiting in patients with craniofacial fibrous dysplasia–a meta-analysis. PLoS One. 2011;6:e25179. [PMC free article]
+- Benhamou J, Gensburger D, Chapurlat R. Transient improvement of severe pain from fibrous dysplasia of bone with denosumab treatment. Joint Bone Spine. 2014;81:549–50.
+- Bhattacharyya N, Wiench M, Dumitrescu C, Connolly BM, Bugge TH, Patel HV, Gafni RI, Cherman N, Cho M, Hager GL, Collins MT. Mechanism of FGF23 processing in fibrous dysplasia. J Bone Miner Res. 2012;27:1132–41.
+- Bianco P, Riminucci M, Majolagbe A, Kuznetsov SA, Collins MT, Mankani MH, Corsi A, Bone HG, Wientroub S, Spiegel AM, Fisher LW, Robey PG. Mutations of the GNAS1 gene, stromal cell dysfunction, and osteomalacic changes in non-McCune-Albright fibrous dysplasia of bone. J Bone Miner Res. 2000;15:120–8.
+- Boyce AM, Brewer C, DeKlotz TR, Zalewski CK, King KA, Collins MT, Kim HJ. Association of hearing loss and otologic outcomes with fibrous dysplasia. JAMA Otolaryngol Head Neck Surg. 2018;144:102–7. [PMC free article]
+- Boyce AM, Chong WH, Shawker TH, Pinto PA, Linehan WM, Bhattacharryya N, Merino MJ, Singer FR, Collins MT. Characterization and management of testicular pathology in McCune-Albright syndrome. J Clin Endocrinol Metab. 2012a;97:E1782–90. [PMC free article]
+- Boyce AM, Chong WH, Yao J, Gafni RI, Kelly MH, Chamberlain CE, Bassim C, Cherman N, Ellsworth M, Kasa-Vubu JZ, Farley FA, Molinolo AA, Bhattacharyya N, Collins MT. Denosumab treatment for fibrous dysplasia. J Bone Miner Res. 2012b;27:1462–70. [PMC free article]
+- Boyce AM, Glover M, Kelly MH, Brillante BA, Butman JA, Fitzgibbon EJ, Brewer CC, Zalewski CK, Cutler Peck CM, Kim HJ, Collins MT. Optic neuropathy in McCune-Albright syndrome: effects of early diagnosis and treatment of growth hormone excess. J Clin Endocrinol Metab. 2013;98:E126–34. [PMC free article]
+- Boyce AM, Kelly MH, Brillante BA, Kushner H, Wientroub S, Riminucci M, Bianco P, Robey PG, Collins MT. A randomized, double blind, placebo-controlled trial of alendronate treatment for fibrous dysplasia of bone. J Clin Endocrinol Metab. 2014;99:4133–40. [PMC free article]
+- Brown RJ, Kelly MH, Collins MT. Cushing syndrome in the McCune-Albright syndrome. J Clin Endocrinol Metab. 2010;95:1508–15. [PMC free article]
+- Carney JA, Young WF, Stratakis CA. Primary bimorphic adrenocortical disease: cause of hypercortisolism in McCune-Albright syndrome. Am J Surg Pathol. 2011;35:1311–26. [PMC free article]
+- Celi FS, Coppotelli G, Chidakel A, Kelly M, Brillante BA, Shawker T, Cherman N, Feuillan PP, Collins MT. The role of type 1 and type 2 5′-deiodinase in the pathophysiology of the 3,5,3′-triiodothyronine toxicosis of McCune-Albright syndrome. J Clin Endocrinol Metab. 2008;93:2383–9. [PMC free article]
+- Clark TJ, Tan BK, Kennedy CR. Asynchronous ovarian torsion in a patient with McCune-Albright syndrome. J Obstet Gynaecol. 2000;20:204.
+- Collins MT, Chebli C, Jones J, Kushner H, Consugar M, Rinaldo P, Wientroub S, Bianco P, Robey PG. Renal phosphate wasting in fibrous dysplasia of bone is part of a generalized renal tubular dysfunction similar to that seen in tumor-induced osteomalacia. J Bone Miner Res. 2001;16:806–13.
+- Collins MT, Kushner H, Reynolds JC, Chebli C, Kelly MH, Gupta A, Brillante B, Leet AI, Riminucci M, Robey PG, Bianco P, Wientroub S, Chen CC. An instrument to measure skeletal burden and predict functional outcome in fibrous dysplasia of bone. J Bone Miner Res. 2005;20:219–26.
+- Collins MT, Sarlis NJ, Merino MJ, Monroe J, Crawford SE, Krakoff JA, Guthrie LC, Bonat S, Robey PG, Shenker A. Thyroid carcinoma in the McCune-Albright syndrome: contributory role of activating Gs alpha mutations. J Clin Endocrinol Metab. 2003;88:4413–7.
+- Collins MT, Singer FR, Eugster E. McCune-Albright syndrome and the extraskeletal manifestations of fibrous dysplasia. 2012. Orphanet J Rare Dis. [PMC free article]
+- Cox JL, Cushman-Vokoun AM, McGarry SV, Kozel JA. Two cases of Mazabraud syndrome and identification of a GNAS R201H mutation by next-generation sequencing. Virchows Arch. 2017;470:589–93.
+- Cutler CM, Lee JS, Butman JA, FitzGibbon EJ, Kelly MH, Brillante BA, Feuillan P, Robey PG, DuFresne CR, Collins MT. Long-term outcome of optic nerve encasement and optic nerve decompression in patients with fibrous dysplasia: risk factors for blindness and safety of observation. Neurosurgery. 2006;59:1011–7.
+- de Sanctis L, Galliano I, Montanari P, Matarazzo P, Tessaris D, Bergallo M. Combining real-time COLD- and MAMA-PCR TaqMan techniques to detect and quantify R201 GNAS mutations in the McCune-Albright syndrome. Horm Res Paediatr. 2017;87:342–9.
+- Estrada A, Boyce AM, Brillante BA, Guthrie LC, Gafni RI, Collins MT. Long-term outcomes of letrozole treatment for precocious puberty in girls with McCune-Albright syndrome. Eur J Endocrinol. 2016;175:477–83. [PMC free article]
+- Eugster EA, Rubin SD, Reiter EO, Plourde P, Jou HC, Pescovitz OH. Tamoxifen treatment for precocious puberty in McCune-Albright syndrome: a multicenter trial. J Pediatr. 2003;143:60–6.
+- Feuillan P, Calis K, Hill S, Shawker T, Robey PG, Collins MT. Letrozole treatment of precocious puberty in girls with the McCune-Albright syndrome: a pilot study. J Clin Endocrinol Metab. 2007;92:2100–6.
+- Florenzano P, Pan KS, Brown SM, Paul SM, Kushner H, Guthrie LC, de Castro LF, Collins MT, Boyce AM. Age-Related Changes and Effects of Bisphosphonates on Bone Turnover and Disease Progression in Fibrous Dysplasia of Bone. J Bone Miner Res. 2019 Apr;34(4):653-660.
+- Ganda K, Seibel MJ. Rapid biochemical response to denosumab in fibrous dysplasia of bone: report of two cases. Osteoporos Int. 2014;25:777–82.
+- Gaujoux S, Salenave S, Ronot M, Rangheard AS, Cros J, Belghiti J, Sauvanet A, Ruszniewski P, Chanson P. Hepatobiliary and pancreatic neoplasms in patients with McCune-Albright syndrome. J Clin Endocrinol Metab. 2014;99:E97–101.
+- Hansen MR, Moffat JC. Osteosarcoma of the skull base after radiation therapy in a patient with McCune-Albright syndrome: case report. Skull Base. 2003;13:79–83. [PMC free article]
+- Hart ES, Kelly MH, Brillante B, Chen CC, Ziran N, Lee JS, Feuillan P, Leet AI, Kushner H, Robey PG, Collins MT. Onset, progression, and plateau of skeletal lesions in fibrous dysplasia and the relationship to functional outcome. J Bone Miner Res. 2007;22:1468–74.
+- Idowu BD, Al-Adnani M, O’Donnell P, Yu L, Odell E, Diss T, Gale RE, Flanagan AM. A sensitive mutation-specific screening technique for GNAS1 mutations in cases of fibrous dysplasia: the first report of a codon 227 mutation in bone. Histopathology. 2007;50:691–704.
+- Ikawa Y, Yachi Y, Inoue N, Kato A, Okajima M, Yachie A. Neonatal McCune-Albright syndrome with giant cell hepatitis. J Pediatr. 2016;178:298.
+- Kalfa N, Philibert P, Audran F, Ecochard A, Hannon T, Lumbroso S, Sultan C. Searching for somatic mutations in McCune-Albright syndrome: a comparative study of the peptidic nucleic acid versus the nested PCR method based on 148 DNA samples. Eur J Endocrinol. 2006;155:839–43.
+- Katznelson L, Laws ER Jr, Melmed S, Molitch ME, Murad MH, Utz A, Wass JA. Acromegaly: an endocrine society clinical practice guideline. J Clin Endocrinol Metab. 2014;99:3933–51.
+- Kelly MH, Brillante B, Collins MT. Pain in fibrous dysplasia of bone: age-related changes and the anatomical distribution of skeletal lesions. Osteoporos Int. 2008;19:57–63.
+- Kelly MH, Brillante B, Kushner H, Gehron Robey P, Collins MT. Physical function is impaired but quality of life preserved in patients with fibrous dysplasia of bone. Bone. 2005;37:388–94.
+- Kuznetsov SA, Cherman N, Riminucci M, Collins MT, Robey PG, Bianco P. Age-dependent demise of GNAS-mutated skeletal stem cells and “normalization” of fibrous dysplasia of bone. J Bone Miner Res. 2008;23:1731–40. [PMC free article]
+- Lala R, Andreo M, Pucci A, Matarazzo P. Persistent hyperestrogenism after precocious puberty in young females with McCune-Albright syndrome. Pediatr Endocrinol Rev. 2007;4 Suppl 4:423–8.
+- Landis CA, Masters SB, Spada A, Pace AM, Bourne HR, Vallar L. GTPase inhibiting mutations activate the alpha chain of Gs and stimulate adenylyl cyclase in human pituitary tumours. Nature. 1989;340:692–6.
+- Lawless ST, Reeves G, Bowen JR. The development of thyroid storm in a child with McCune-Albright syndrome after orthopedic surgery. Am J Dis Child. 1992;146:1099–102.
+- Lee JS, FitzGibbon EJ, Chen YR, Kim HJ, Lustig LR, Akintoye SO, Collins MT, Kaban LB. Clinical guidelines for the management of craniofacial fibrous dysplasia. Orphanet J Rare Dis. 2012;7 Suppl 1:S2. [PMC free article]
+- Lee JS, FitzGibbon E, Butman JA, Dufresne CR, Kushner H, Wientroub S, Robey PG, Collins MT. Normal vision despite narrowing of the optic canal in fibrous dysplasia. N Engl J Med. 2002;347:1670–6.
+- Leet AI, Boyce AM, Ibrahim KA, Wientroub S, Kushner H, Collins MT. Bone-grafting in polyostotic fibrous dysplasia. J Bone Joint Surg Am. 2016;98:211–9. [PMC free article]
+- Leet AI, Chebli C, Kushner H, Chen CC, Kelly MH, Brillante BA, Robey PG, Bianco P, Wientroub S, Collins MT. Fracture incidence in polyostotic fibrous dysplasia and the McCune-Albright syndrome. J Bone Miner Res. 2004a;19:571–7.
+- Leet AI, Magur E, Lee JS, Wientroub S, Robey PG, Collins MT. Fibrous dysplasia in the spine: prevalence of lesions and association with scoliosis. J Bone Joint Surg Am. 2004b;86-A(3):531–7.
+- Lim YH, Ovejero D, Sugarman JS, Deklotz CM, Maruri A, Eichenfield LF, Kelley PK, Jüppner H, Gottschalk M, Tifft CJ, Gafni RI, Boyce AM, Cowen EW, Bhattacharyya N, Guthrie LC, Gahl WA, Golas G, Loring EC, Overton JD, Mane SM, Lifton RP, Levy ML, Collins MT, Choate KA. Multilineage somatic activating mutations in HRAS and NRAS cause mosaic cutaneous and skeletal lesions, elevated FGF23 and hypophosphatemia. Hum Mol Genet. 2014;23:397–407. [PMC free article]
+- Liu F, Li W, Yao Y, Li G, Yang Y, Dou W, Zhong D, Wang L, Zhu X, Hu H, Zhang J, Wang R, Chen G. A case of McCune-Albright syndrome associated with pituitary GH adenoma: therapeutic process and autopsy. J Pediatr Endocrinol Metab. 2011;24:283–7.
+- Lumbroso S, Paris F, Sultan C., European Collaborative Study. Activating Gsalpha mutations: analysis of 113 patients with signs of McCune-Albright syndrome–a European Collaborative Study. J Clin Endocrinol Metab. 2004;89:2107–13.
+- Mahdi AJ, Connor P, Thakur I. McCune-Albright syndrome-associated bone marrow failure and extramedullary haematopoeisis secondary to fibrous dysplasia. Br J Haematol. 2017;178:179.
+- Majoor BC, Boyce AM, Bovée JV, Smit VT, Collins MT, Cleton-Jansen AM, Dekkers OM, Hamdy NA, Dijkstra PS, Appelman-Dijkstra NM. Increased risk of breast cancer at a young age in women with fibrous dysplasia. J Bone Miner Res. 2018a;33:84–90.
+- Majoor BCJ, Andela CD, Quispel CR. Rotman M2, Dijkstra PDS, Hamdy NAT, Kaptein AA, Appelman-Dijkstra NM. Illness perceptions are associated with quality of life in patients with fibrous dysplasia. Calcif Tissue Int. 2018b;102:23–31. [PMC free article]
+- Mancini F, Corsi A, De Maio F, Riminucci M, Ippolito E. Scoliosis and spine involvement in fibrous dysplasia of bone. Eur Spine J. 2009;18:196–202. [PMC free article]
+- Manjila S, Zender CA, Weaver J, Rodgers M, Cohen AR. Aneurysmal bone cyst within fibrous dysplasia of the anterior skull base: continued intracranial extension after endoscopic resections requiring craniofacial approach with free tissue transfer reconstruction. Childs Nerv Syst. 2013;29:1183–92.
+- Mariot V, Wu JY, Aydin C, Mantovani G, Mahon MJ, Linglart A, Bastepe M. Potent constitutive cyclic AMP-generating activity of XLαs implicates this imprinted GNAS product in the pathogenesis of McCune-Albright syndrome and fibrous dysplasia of bone. Bone. 2011;48:312-20. [PMC free article]
+- Narumi S, Matsuo K, Ishii T, Tanahashi Y, Hasegawa T. Quantitative and sensitive detection of GNAS mutations causing McCune-Albright syndrome with next generation sequencing. PLoS One. 2013;8:e60525. [PMC free article]
+- Ovejero D, Lim YH, Boyce AM, Gafni RI, McCarthy E, Nguyen TA, Eichenfield LF, DeKlotz CM, Guthrie LC, Tosi LL, Thornton PS, Choate KA, Collins MT. Cutaneous skeletal hypophosphatemia syndrome: clinical spectrum, natural history, and treatment. Osteoporos Int. 2016;27:3615–26.
+- Parvanescu A, Cros J, Ronot M, Hentic O, Grybek V, Couvelard A, Levy P, Chanson P, Ruszniewski P, Sauvanet A, Gaujoux S. Optic neuropathy in McCune-Albright syndrome: effects of early diagnosis and treatment of growth hormone excess. JAMA Surg. 2014;149:858–62.
+- Paul SM, Gabor LR, Rudzinski S, Giovanni D, Boyce AM, Kelly MR, Collins MT. Disease severity and functional factors associated with walking performance in polyostotic fibrous dysplasia. Bone. 2014;60:41–7. [PMC free article]
+- Riminucci M, Collins MT, Fedarko NS, Cherman N, Corsi A, White KE, Waguespack S, Gupta A, Hannon T, Econs MJ, Bianco P, Gehron Robey P. FGF-23 in fibrous dysplasia of bone and its relationship to renal phosphate wasting. J Clin Invest. 2003;112:683–92. [PMC free article]
+- Robinson C, Boyce AM, Estrada A, Kleiner DE, Mathew R, Stanton R, Frangoul H, Collins MT. Bone marrow failure and extramedullary hematopoiesis in McCune-Albright syndrome. Osteoporos Int. 2018;29:237–41.
+- Ross DS, Burch HB, Cooper DS, Greenlee MC, Laurberg P, Maia AL, Rivkees SA, Samuels M, Sosa JA, Stan MN, Walter MA. 2016 American Thyroid Association guidelines for diagnosis and management of hyperthyroidism and other causes of thyrotoxicosis. Thyroid. 2016;26:1343–1421.
+- Ruggieri P, Sim FH, Bond JR, Unni KK. Malignancies in fibrous dysplasia. Cancer. 1994;73:1411–24.
+- Salenave S, Boyce AM, Collins MT, Chanson P. Acromegaly and McCune-Albright syndrome. J Clin Endocrinol Metab. 2014;99:1955–69. [PMC free article]
+- Silva ES, Lumbroso S, Medina M, Gillerot Y, Sultan C, Sokal EM. Demonstration of McCune-Albright mutations in the liver of children with high gammaGT progressive cholestasis. J Hepatol. 2000;32:154–8.
+- Stanton RP, Ippolito E, Springfield D, Lindaman L, Wientroub S, Leet A. The surgical management of fibrous dysplasia of bone. Orphanet J Rare Dis. 2012;7 Suppl 1:S1. [PMC free article]
+- Tanaka M, Fernández-del Castillo C, Adsay V, Chari S, Falconi M, Jang JY, Kimura W, Levy P, Pitman MB, Schmidt CM, Shimizu M, Wolfgang CL, Yamaguchi K, Yamao K., et al. International consensus guidelines 2012 for the management of IPMN and MCN of the pancreas. Pancreatology. 2012;12:183–97.
+- Tessaris D, Corrias A, Matarazzo P, De Sanctis L, Wasniewska M, Messina MF, Vigone MC, Lala R. Thyroid abnormalities in children and adolescents with McCune-Albright syndrome. Horm Res Paediatr. 2012a;78:151–7.
+- Tessaris D, Matarazzo P, Mussa A, Tuli G, Verna F, Fiore L, Lala R. Combined treatment with bicalutamide and anastrazole in a young boy with peripheral precocious puberty due to McCune-Albright Syndrome. Endocr J. 2012b;59:111–17.
+- Vortmeyer AO, Gläsker S, Mehta GU, Abu-Asab MS, Smith JH, Zhuang Z, Collins MT, Oldfield EH. Somatic GNAS mutation causes widespread and diffuse pituitary disease in acromegalic patients with McCune-Albright syndrome. J Clin Endocrinol Metab. 2012;97:2404–13. [PMC free article]
+- Weinstein LS, Liu J, Sakamoto A, Xie T, Chen M. Minireview: GNAS: normal and abnormal functions. Endocrinology. 2004;145:5459–64.
+- Wood LD, Noë M, Hackeng W, Brosens LA, Bhaijee F, Debeljak M, Yu J, Suenaga M, Singhi AD, Zaheer A, Boyce A, Robinson C, Eshleman JR, Goggins MG, Hruban RH, Collins MT, Lennon AM, Montgomery EA. Patientes with McCune-Albright syndrome have a broad spectrum of abnormalities in the gastrointestinal tract and pancreas. Virchows Arch. 2017;470:391–400. [PMC free article]
+- Wood LD, Parsons DW, Jones S, Lin J, Sjöblom T, Leary RJ, Shen D, Boca SM, Barber T, Ptak J, Silliman N, Szabo S, Dezso Z, Ustyanksky V, Nikolskaya T, Nikolsky Y, Karchin R, Wilson PA, Kaminker JS, Zhang Z, Croshaw R, Willis J, Dawson D, Shipitsin M, Willson JK, Sukumar S, Polyak K, Park BH, Pethiyagoda CL, Pant PV, Ballinger DG, Sparks AB, Hartigan J, Smith DR, Suh E, Papadopoulos N, Buckhaults P, Markowitz SD, Parmigiani G, Kinzler KW, Velculescu VE, Vogelstein B. The genomic landscapes of human breast and colorectal cancers. Science. 2007;318:1108–13.
 
 ---
 
