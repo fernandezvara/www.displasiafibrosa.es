@@ -1,28 +1,30 @@
 {{ define "main" }}
-<div class="page-header">
-  <h1>{{ .Title }}</h1>
-  {{ if .Description }}
-  <p class="page-description">{{ .Description }}</p>
-  {{ end }}
-</div>
-
-<div class="page-content{{ if .Params.featured_image }} with-image{{ end }}">
-  {{ .Content }} {{ if .Pages }}
-  <div class="section-list">
-    {{ range .Pages.ByWeight }}
-    <article class="section-item">
-      <h2>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </h2>
-      {{ if .Description }}
-      <p class="section-description">{{ .Description }}</p>
-      {{ end }} {{ if .Params.summary }}
-      <p class="section-summary">{{ .Params.summary }}</p>
-      {{ end }}
-    </article>
+<div class="container">
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Description }}
+    <p class="page-description">{{ .Description }}</p>
     {{ end }}
   </div>
-  {{ end }}
+
+  <div class="page-content{{ if .Params.featured_image }} with-image{{ end }}">
+    {{ .Content }} {{ if .Pages }}
+    <div class="section-list">
+      {{ range .Pages.ByWeight }}
+      <article class="section-item">
+        <h2>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        {{ if .Description }}
+        <p class="section-description">{{ .Description }}</p>
+        {{ end }} {{ if .Params.summary }}
+        <p class="section-summary">{{ .Params.summary }}</p>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
 </div>
 
 <style>

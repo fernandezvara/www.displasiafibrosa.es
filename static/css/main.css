@@ -1960,7 +1960,7 @@ figure figcaption {
 
 /* FAQ */
 .faq-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: var(--space-4) 0;
 }
