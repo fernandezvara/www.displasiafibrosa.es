@@ -8,5 +8,5 @@ bio: "Profesor titular del Área de Educación Física de la Universidad de las 
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/pere-borras.jpg"
+photo: "/images/personas/pere-borras.jpg"
 ---

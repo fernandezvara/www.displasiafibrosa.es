@@ -8,5 +8,5 @@ bio: "Licenciada en Medicina y Cirugía por la Universidad de Navarra. Especiali
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/beatriz-lecumberri.jpg"
+photo: "/images/personas/beatriz-lecumberri.jpg"
 ---

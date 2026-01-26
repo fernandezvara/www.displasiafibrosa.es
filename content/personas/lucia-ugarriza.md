@@ -8,5 +8,5 @@ bio: "Directora del Comité Científico de la Asociación de Displasia Fibrosa. 
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/lucia-ugarriza.jpg"
+photo: "/images/personas/lucia-ugarriza.jpg"
 ---

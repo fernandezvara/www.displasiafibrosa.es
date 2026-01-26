@@ -8,7 +8,7 @@ bio: "Se formó como especialista en Endocrinología en Barcelona y posteriormen
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/diana-ovejero.jpg"
+photo: "/images/personas/diana-ovejero.jpg"
 ---
 
 La Dra. Diana Ovejero Crespo aporta una valiosa perspectiva internacional de investigación. Su formación en el Instituto Nacional de la Salud de Estados Unidos y su actual trabajo como investigadora postdoctoral en el Instituto de Investigaciones Médicas del Hospital del Mar la posicionan a la vanguardia del conocimiento sobre enfermedades minoritarias del metabolismo mineral esquelético.

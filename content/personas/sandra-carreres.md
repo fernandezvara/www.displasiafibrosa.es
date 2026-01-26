@@ -8,5 +8,5 @@ bio: "Dietista-nutricionista, máster en nutrigenómica y nutrición personaliza
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/sandra-carreres.jpg"
+photo: "/images/personas/sandra-carreres.jpg"
 ---

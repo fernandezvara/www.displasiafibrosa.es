@@ -8,5 +8,5 @@ bio: "La Dra Irene Tarjuelo García se formó en endocrinología pediátrica en 
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/irene-tarjuelo.jpg"
+photo: "/images/personas/irene-tarjuelo.jpg"
 ---

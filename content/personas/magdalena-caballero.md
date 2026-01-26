@@ -8,5 +8,5 @@ bio: "Magdalena Caballero Campos es Profesora Titular del área Matemática Apli
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/magdalena-caballero.jpg"
+photo: "/images/personas/magdalena-caballero.jpg"
 ---

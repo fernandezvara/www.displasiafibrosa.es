@@ -8,5 +8,5 @@ bio: "Fisioterapeuta de AHUCE, la Asociación de Huesos de Cristal de España y 
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/miguel-rodriguez.jpg"
+photo: "/images/personas/miguel-rodriguez.jpg"
 ---

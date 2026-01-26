@@ -8,5 +8,5 @@ bio: "Investigador en la Unidad de Enfermedades Metabólicas Oseas (MBDU) del In
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/luis-fernandez.jpg"
+photo: "/images/personas/luis-fernandez.jpg"
 ---

@@ -8,7 +8,7 @@ bio: "Investigadora del IIS BioAraba, Genetista del Hospital Universitario de Á
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/giomar-perez.jpg"
+photo: "/images/personas/giomar-perez.jpg"
 ---
 
 La Dra. Guiomar Pérez de Nanclares Leal es nuestra especialista en genética, crucial para entender el diagnóstico y asesoramiento genético de las familias afectadas por DF/MAS. Su triple rol como investigadora, genetista clínica y Profesora Asociada le proporciona una visión completa tanto de la investigación básica como de la aplicación clínica.

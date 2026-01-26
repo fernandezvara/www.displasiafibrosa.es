@@ -8,5 +8,5 @@ bio: "Licenciado en Medicina y Cirugía por la Universidad Autónoma de Madrid. 
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/nestor-montesdeoca.jpg"
+photo: "/images/personas/nestor-montesdeoca.jpg"
 ---

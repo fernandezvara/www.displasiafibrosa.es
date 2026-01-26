@@ -8,5 +8,5 @@ bio: "Jefa de Sección de Traumatología Infantil del Hospital Universitario de 
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/ana-maria-bueno.jpg"
+photo: "/images/personas/ana-maria-bueno.jpg"
 ---

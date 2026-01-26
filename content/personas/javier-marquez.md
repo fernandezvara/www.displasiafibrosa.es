@@ -8,5 +8,5 @@ bio: "Neurocirujano y Neurocirujano Infantil en HUVR, profesor e investigador en
 email: "info@displasiafibrosa.es"
 phone: ""
 linkedin: ""
-photo: "/images/comite-cientifico/javier-marquez.jpg"
+photo: "/images/personas/javier-marquez.jpg"
 ---
