@@ -2,6 +2,7 @@
 title: "Síndrome McCune-Albright"
 description: "Qué es el Síndrome McCune-Albright (MAS)"
 show_colabora: true
+weight: 23
 ---
 
 MAS es la abreviatura en inglés de **McCune-Albright Syndrome**.
@@ -12,9 +13,9 @@ La DF puede existir de manera aislada, o asociada a trastornos de la piel (los p
 
 El síndrome de McCune-Albright se define como la asociación de al menos dos de las siguientes alteraciones incluyendo:
 
-(a) Displasia fibrosa,
-(b) manchas "café con leche" de la piel,
-(c) uno de los trastornos endocrinos mencionados anteriormente.
+- Displasia fibrosa,
+- Manchas "café con leche" de la piel,
+- Al menos uno de los trastornos endocrinos mencionados anteriormente.
 
 Cualquier combinación de estos rasgos es posible. El MAS es mucho menos frecuente que la DF.
 

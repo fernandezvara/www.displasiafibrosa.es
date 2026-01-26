@@ -3,6 +3,7 @@ title: "Guía Médica"
 description: "Guía médica actualizada para pacientes con Displasia Fibrosa y Síndrome de McCune-Albright"
 layout: "single"
 show_colabora: true
+weight: 24
 ---
 
 Traducción de 'Fibrous Dysplasia/McCune-Albright Syndrome-GeneReviews' [Texto original](https://www.ncbi.nlm.nih.gov/books/NBK539662/)

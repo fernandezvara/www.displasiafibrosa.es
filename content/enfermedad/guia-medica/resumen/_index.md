@@ -2,6 +2,7 @@
 title: "Guía médica - Resumen"
 description: "Para pacientes con Displasia Fibrosa y Síndrome de McCune-Albright"
 show_colabora: true
+weight: 26
 ---
 
 ### Autores:

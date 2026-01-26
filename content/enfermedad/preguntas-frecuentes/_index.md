@@ -3,6 +3,7 @@ title: "Preguntas Frecuentes"
 type: "faq"
 layout: "single"
 description: "Respuestas a las preguntas más comunes sobre la Displasia Fibrosa y el Síndrome de McCune-Albright."
+weight: 21
 categories:
   - name: "Sobre la Enfermedad"
     questions:

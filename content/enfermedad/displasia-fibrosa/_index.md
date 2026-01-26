@@ -2,6 +2,7 @@
 title: "Displasia Fibrosa"
 description: "Información sobre la Displasia Fibrosa y el Síndrome de McCune-Albright"
 show_colabora: true
+weight: 22
 ---
 
 ## Displasia Fibrosa (DF)
