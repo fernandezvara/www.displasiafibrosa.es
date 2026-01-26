@@ -97,121 +97,79 @@ title = 'Asociación de Displasia Fibrosa'
     weight = 24
   
   [[menu.main]]
-    name = "Nueva Guía Médica 2019 (v.o. en Inglés)"
-    url = "/enfermedad/"
+    name = "Guía Médica 2019 (v.o. en Inglés)"
+    url = "/enfermedad/guia-medica-2019-vo/"
     parent = "La Enfermedad"
-    weight = 33
-    
-  [[menu.main]]
-    name = "FD-MAS patient checklist"
-    url = "/wp-content/uploads/2022/02/01-FDMAS_patient_checklist.pdf"
-    parent = "La Enfermedad"
-    weight = 34
-    
-  [[menu.main]]
-    name = "Flowchart Assessing bones"
-    url = "/wp-content/uploads/2022/02/02-Flowchart_Assessing_bones.pdf"
-    parent = "La Enfermedad"
-    weight = 35
-    
-  [[menu.main]]
-    name = "Flowchart Managing FD of the skull"
-    url = "/wp-content/uploads/2022/02/03-Flowchart_Managing_FD_of_the_skull.pdf"
-    parent = "La Enfermedad"
-    weight = 36
-    
-  [[menu.main]]
-    name = "Flowchart treating bone pain"
-    url = "/wp-content/uploads/2022/02/04-Flowchart_treating_bone_pain.pdf"
-    parent = "La Enfermedad"
-    weight = 37
-    
-  [[menu.main]]
-    name = "Flowchart treating hormone problems"
-    url = "/wp-content/uploads/2022/02/05-Flowchart_treating_hormone_problems.pdf"
-    parent = "La Enfermedad"
-    weight = 38
-    
-  [[menu.main]]
-    name = "Flowchart Treatment thigh bone problems"
-    url = "/wp-content/uploads/2022/02/06-Flowchart_Treatment_thigh_bone_problems.pdf"
-    parent = "La Enfermedad"
-    weight = 39
-    
-  [[menu.main]]
-    name = "Best practice management guidelines"
-    url = "/wp-content/uploads/2022/02/07-Best-practice-management-guidelines.pdf"
-    parent = "La Enfermedad"
-    weight = 40
-    
+    weight = 26
+        
   [[menu.main]]
     name = "Libro Blanco"
-    url = "/libro-blanco/"
+    url = "/enfermedad/libro-blanco/"
     parent = "La Enfermedad"
-    weight = 41
+    weight = 27
     
   [[menu.main]]
     name = "Exención de responsabilidad"
-    url = "/exencion-de-responsabilidad/"
+    url = "/enfermedad/exencion-de-responsabilidad/"
     parent = "La Enfermedad"
-    weight = 42
+    weight = 28
     
   [[menu.main]]
     name = "Noticias"
     url = "/noticias/"
-    weight = 50
+    weight = 29
     
   [[menu.main]]
     name = "Noticias y Eventos"
     url = "/noticias/"
     parent = "Noticias"
-    weight = 51
+    weight = 30
     
   [[menu.main]]
     name = "Otras Asociaciones"
     url = "/otras-asociaciones/"
     parent = "Noticias"
-    weight = 52
+    weight = 31
     
   [[menu.main]]
     name = "Publicaciones"
     url = "/recursos/"
-    weight = 60
+    weight = 32
     
   [[menu.main]]
     name = "Congreso Florencia 2019"
     url = "/recursos/congresos/florencia-2019/"
     parent = "Publicaciones"
-    weight = 61
+    weight = 33
     
   [[menu.main]]
     name = "I Congreso Nacional Burgos 2019"
     url = "/recursos/congresos/burgos-2019/"
     parent = "Publicaciones"
-    weight = 62
+    weight = 34
     
   [[menu.main]]
     name = "II Congreso Nacional 2021"
     url = "/recursos/congresos/2021/"
     parent = "Publicaciones"
-    weight = 63
+    weight = 35
     
   [[menu.main]]
     name = "III Congreso Nacional 2022"
     url = "/recursos/congresos/2022/"
     parent = "Publicaciones"
-    weight = 64
+    weight = 36
     
   [[menu.main]]
     name = "IV Congreso Nacional 2023"
     url = "/recursos/congresos/2023/"
     parent = "Publicaciones"
-    weight = 65
+    weight = 37
     
   [[menu.main]]
     name = "Contacto"
     url = "/contacto/"
-    weight = 70
+    weight = 38
 
 [pagination]
   pagerSize = 6
