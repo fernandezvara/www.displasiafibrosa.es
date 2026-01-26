@@ -267,6 +267,10 @@ p {
   gap: var(--space-4);
 }
 
+.nav a:hover {
+  text-decoration: none;
+}
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -287,12 +291,14 @@ p {
   color: var(--gray-700);
   border-radius: var(--radius);
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link.active {
   color: var(--navy-800);
   background: var(--navy-50);
+  text-decoration: none;
 }
 
 .nav-link svg {
@@ -929,7 +935,6 @@ p {
   font-size: 0.9375rem;
   line-height: 1.6;
   margin-top: var(--space-2);
-  max-width: 300px;
 }
 
 .footer-logo {
