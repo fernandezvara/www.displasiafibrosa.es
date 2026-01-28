@@ -1,10 +1,8 @@
 ---
 title: "La Asociación"
 description: "Conoce la Asociación de Displasia Fibrosa - ADF, nuestra misión, historia y compromiso con los afectados"
-layout: "default"
+layout: "list"
 ---
-
-# La Asociación de Displasia Fibrosa - ADF
 
 Bienvenido a la Asociación de Displasia Fibrosa (ADF), una entidad sin ánimo de lucro dedicada a mejorar la vida de las personas afectadas por Displasia Fibrosa y Síndrome de McCune-Albright.
 
