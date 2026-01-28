@@ -5,14 +5,24 @@
 
 <div class="container">
     <header class="page-header">
-        <h1>{{ .Title }}</h1>
-        {{ if .Description }}
-        <p class="page-description">{{ .Description }}</p>
-        {{ end }}
+        <h1>Noticias y Eventos</h1>
+        <p class="page-description">Entérate de las últimas novedades y eventos de la Asociación de Displasia Fibrosa</p>
     </header>
     
+    <!-- Active filter indicator -->
+    <div class="active-filter">
+        <span>Filtrando por:</span>
+        <span class="category-badge">{{ .Title }}</span>
+        <a href="{{ "/noticias/" | relURL }}" class="clear-filter">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+            Quitar filtro
+        </a>
+    </div>
+    
     <div class="news-list">
-        {{ range .Paginator.Pages }}
+        {{ range .Pages }}
         <article class="news-item">
             {{ if .Params.image }}
             <div class="news-item-image">
@@ -65,58 +75,13 @@
                 </a>
             </div>
         </article>
+        {{ else }}
+        <div class="no-results">
+            <p>No se encontraron noticias con esta categoría.</p>
+            <a href="{{ "/noticias/" | relURL }}" class="btn btn-outline">Ver todas las noticias</a>
+        </div>
         {{ end }}
     </div>
-    
-    <!-- Pagination -->
-    {{ if gt .Paginator.TotalPages 1 }}
-    <nav class="pagination" role="navigation" aria-label="Navegación de noticias">
-        {{ if .Paginator.HasPrev }}
-        <a href="{{ .Paginator.Prev.URL }}" class="pagination-link pagination-prev">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-            </svg>
-            Anterior
-        </a>
-        {{ end }}
-        
-        <div class="pagination-numbers">
-            {{ $paginator := .Paginator }}
-            {{ $adjacent_links := 2 }}
-            {{ $max_links := (add (add $adjacent_links $adjacent_links) 1) }}
-            {{ $lower_limit := (sub $paginator.PageNumber $adjacent_links) }}
-            {{ $upper_limit := (add $paginator.PageNumber $adjacent_links) }}
-            
-            {{ if lt $lower_limit 1 }}
-                {{ $lower_limit = 1 }}
-                {{ $upper_limit = math.Min $max_links $paginator.TotalPages }}
-            {{ end }}
-            
-            {{ if gt $upper_limit $paginator.TotalPages }}
-                {{ $upper_limit = $paginator.TotalPages }}
-                {{ $lower_limit = math.Max 1 (sub $upper_limit (sub $max_links 1)) }}
-            {{ end }}
-            
-            {{ range $lower_limit.Inc $upper_limit }}
-                {{ $page := . }}
-                {{ if eq $page $paginator.PageNumber }}
-                <span class="pagination-current">{{ $page }}</span>
-                {{ else }}
-                <a href="{{ $paginator.URL $page }}" class="pagination-link">{{ $page }}</a>
-                {{ end }}
-            {{ end }}
-        </div>
-        
-        {{ if .Paginator.HasNext }}
-        <a href="{{ .Paginator.Next.URL }}" class="pagination-link pagination-next">
-            Siguiente
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-            </svg>
-        </a>
-        {{ end }}
-    </nav>
-    {{ end }}
 </div>
 
 {{ end }}
