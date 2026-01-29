@@ -1,4 +1,4 @@
-baseURL = 'https://www.displasiafibrosa.es'
+baseURL = 'https://fernandezvara.github.io/displasiafibrosa.es'
 languageCode = 'es-es'
 title = 'Asociación de Displasia Fibrosa'
 
@@ -66,7 +66,13 @@ title = 'Asociación de Displasia Fibrosa'
     url = "/asociacion/un-regalo-llamado-mateo/"
     parent = "La Asociación"
     weight = 19
-    
+
+  [[menu.main]]
+    name = "Otras Asociaciones"
+    url = "/asociacion/otras-asociaciones/"
+    parent = "La Asociación"
+    weight = 31
+
   [[menu.main]]
     name = "La Enfermedad"
     url = "/enfermedad/"
@@ -115,56 +121,86 @@ title = 'Asociación de Displasia Fibrosa'
     weight = 28
     
   [[menu.main]]
-    name = "Noticias"
-    url = "/noticias/"
+    name = "Eventos"
+    url = "/eventos/"
     weight = 29
     
   [[menu.main]]
-    name = "Noticias y Eventos"
-    url = "/noticias/"
-    parent = "Noticias"
+    name = "Noticias"
+    url = "/eventos/noticias/"
+    parent = "Eventos"
     weight = 30
-    
-  [[menu.main]]
-    name = "Otras Asociaciones"
-    url = "/otras-asociaciones/"
-    parent = "Noticias"
-    weight = 31
-    
-  [[menu.main]]
-    name = "Publicaciones"
-    url = "/recursos/"
-    weight = 32
-    
+  
   [[menu.main]]
     name = "Congreso Florencia 2019"
     url = "/recursos/congresos/florencia-2019/"
-    parent = "Publicaciones"
+    parent = "Eventos"
     weight = 33
     
   [[menu.main]]
     name = "I Congreso Nacional Burgos 2019"
     url = "/recursos/congresos/burgos-2019/"
-    parent = "Publicaciones"
+    parent = "Eventos"
     weight = 34
     
   [[menu.main]]
     name = "II Congreso Nacional 2021"
     url = "/recursos/congresos/2021/"
-    parent = "Publicaciones"
+    parent = "Eventos"
     weight = 35
     
   [[menu.main]]
     name = "III Congreso Nacional 2022"
     url = "/recursos/congresos/2022/"
-    parent = "Publicaciones"
+    parent = "Eventos"
     weight = 36
     
   [[menu.main]]
     name = "IV Congreso Nacional 2023"
     url = "/recursos/congresos/2023/"
-    parent = "Publicaciones"
+    parent = "Eventos"
     weight = 37
+    
+  [[menu.main]]
+    name = "Recursos"
+    url = "/recursos/"
+    weight = 32
+
+  [[menu.main]]
+    name = "Prensa escrita"
+    url = "/recursos/prensa-escrita"
+    parent = "Recursos"
+    weight = 39
+
+  [[menu.main]]
+    name = "Video Displasia Fibrosa"
+    url = "/recursos/video-displasia-fibrosa"
+    parent = "Recursos"
+    weight = 40
+
+  [[menu.main]]
+    name = "Vídeos en medios"
+    url = "/recursos/videos"
+    parent = "Recursos"
+    weight = 41
+
+  [[menu.main]]
+    name = "Vídeo campañas ADF"
+    url = "/recursos/videos-adf"
+    parent = "Recursos"
+    weight = 42
+
+  [[menu.main]]
+    name = "Tríptico ADF"
+    url = "/recursos/triptico"
+    parent = "Recursos"
+    weight = 43
+
+  [[menu.main]]
+    name = "Información sobre discapacidad"
+    url = "/recursos/informacion-discapacidad"
+    parent = "Recursos"
+    weight = 44
     
   [[menu.main]]
     name = "Contacto"
