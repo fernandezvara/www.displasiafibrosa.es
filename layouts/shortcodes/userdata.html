@@ -1,0 +1,29 @@
+{{- $file := .Get "file" -}}
+{{- $show := .Get "show" | default "name" -}}
+{{- $user := .Site.GetPage $file -}}
+
+{{- if $user -}}
+  {{- $displayText := "" -}}
+  {{- if eq $show "name" -}}
+    {{- $displayText = $user.Params.name -}}
+  {{- else if eq $show "bio" -}}
+    {{- $displayText = $user.Params.bio -}}
+  {{- else if eq $show "institution" -}}
+    {{- $displayText = $user.Params.institution -}}
+  {{- else if eq $show "position" -}}
+    {{- $displayText = $user.Params.position -}}
+  {{- else if eq $show "specialization" -}}
+    {{- $displayText = $user.Params.position -}}
+  {{- else -}}
+    {{- $displayText = index $user.Params $show -}}
+  {{- end -}}
+
+  {{- $uniqueId := printf "user-%s-%d" (replace $file "/" "-") now.UnixMilli -}}
+  {{- $photoUrl := "" -}}
+  {{- if $user.Params.photo -}}
+    {{- $photoUrl = $user.Params.photo | relURL -}}
+  {{- end -}}
+<span class="user-data-trigger" data-user-id="{{ $uniqueId }}" data-user-name="{{ $user.Params.name }}" data-user-prefix="{{ $user.Params.prefix }}" data-user-suffix="{{ $user.Params.suffix }}" data-user-position="{{ $user.Params.position }}" data-user-institution="{{ $user.Params.institution }}" data-user-bio="{{ $user.Params.bio }}" data-user-photo="{{ $photoUrl }}" data-user-email="{{ $user.Params.email }}" data-user-phone="{{ $user.Params.phone }}" data-user-linkedin="{{ $user.Params.linkedin }}">{{ $displayText }}</span>
+{{- else -}}
+<span class="user-data-error">Usuario no encontrado: {{ $file }}</span>
+{{- end -}}
