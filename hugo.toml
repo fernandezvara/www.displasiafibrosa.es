@@ -1,11 +1,11 @@
-baseURL = 'https://fernandezvara.github.io/www.displasiafibrosa.es/'
+baseURL = 'https://displasiafibrosa.999urls.com'
 languageCode = 'es-es'
 title = 'Asociación de Displasia Fibrosa'
 
 [params]
   description = "Asociación de Displasia Fibrosa - Ayudamos a afectados por DF y MAS"
   author = "Asociación de Displasia Fibrosa"
-  logo = "images/logo.svg"
+  logo = "/images/logo.svg"
   
 [menu]
   [[menu.main]]
