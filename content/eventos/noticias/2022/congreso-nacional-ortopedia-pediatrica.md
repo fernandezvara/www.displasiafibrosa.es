@@ -5,6 +5,7 @@ summary: "El día 16 de junio de 2022 asistimos al XV Congreso Nacional de la So
 author: "Comunicación ADF"
 image: "/images/noticias/2022/congreso-nacional-ortopedia-pediatrica.png"
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 Tuvimos la oportunidad de presentar nuestra Asociacion, compartir con lo asistentes al Congreso el trabajo que realizamos, y debatir sobre nuestras necesidades.

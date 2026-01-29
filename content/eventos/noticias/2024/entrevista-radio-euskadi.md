@@ -5,6 +5,7 @@ summary: "Entrevista a Nerea Arrieta y Ana Bueno en radio Euskadi"
 author: "Comunicación ADF"
 image: "/images/noticias/2024/entrevista-radio-euskadi.png"
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 **Displasia Fibrosa, una de las enfermedades raras más desconocidas**

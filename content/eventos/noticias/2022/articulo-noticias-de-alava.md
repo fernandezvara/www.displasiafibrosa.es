@@ -5,6 +5,7 @@ summary: "El día 28 de febrero de 2022 se publicó un artículo en el diarío N
 author: "Comunicación ADF"
 image: ""
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 Artículo en el diario Noticias de Alava de la {{< userdata file="/personas/giomar-perez" >}} , genetista y miembro del [Comité Científico](/asociacion/comite-cientifico) de la ADF.

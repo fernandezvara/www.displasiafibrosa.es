@@ -5,6 +5,7 @@ summary: "¡¡¡Ya está a la venta nuestro cuento infantil Un regalo llamado Ma
 author: "Comunicación ADF"
 image: "/images/noticias/2020/un-regalo-llamado-mateo.jpg"
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 **¡¡¡Ya está a la venta nuestro cuento infantil Un regalo llamado Mateo!!!**

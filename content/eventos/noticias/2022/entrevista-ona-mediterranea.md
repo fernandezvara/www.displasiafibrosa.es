@@ -5,6 +5,7 @@ summary: "Entrevista en Ona Mediterranea a Lucía Ugarriza"
 author: "Comunicación ADF"
 image: ""
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 La {{< userdata file="/personas/lucia-ugarriza" show="name" >}}, directora del [Comité Científico](/asociacion/comite-cientifico) de la ADF, ha concedido una entrevista a la emisora de radio Ona Mediterrania.

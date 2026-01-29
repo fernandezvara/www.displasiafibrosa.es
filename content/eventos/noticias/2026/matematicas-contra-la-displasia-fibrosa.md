@@ -5,6 +5,7 @@ summary: "La Asociación de Displasia Fibrosa obtiene una ayuda de la Fundación
 author: "Comunicación ADF"
 image: ""
 categories: ["investigacion"]
+type: "noticias"
 ---
 
 La Asociación de Displasia Fibrosa obtiene una ayuda de la Fundación FEDER para la investigación de enfermedades raras (IX Convocatoria de Ayudas a la Investigación de la Fundación FEDER).

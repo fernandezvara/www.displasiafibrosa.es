@@ -5,6 +5,7 @@ summary: "4th Meeting of the International FD/MAS Consortium. Florence, May 28-2
 author: "Comunicación ADF"
 image: ""
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 **4th Meeting of the International FD/MAS Consortium. Florence, May 28-29, 2019**

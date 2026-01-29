@@ -5,6 +5,7 @@ summary: "La ADF ha firmado un convenio de colaboración con Fidelitis, un grupo
 author: "Comunicación ADF"
 image: ""
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 La ADF ha firmado un convenio de colaboración con Fidelitis, un grupo de abogados especialistas en Derecho Sociolaboral.

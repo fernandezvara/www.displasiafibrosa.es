@@ -5,6 +5,7 @@ summary: "El día 6 de marzo de 2022 se realizó una intervención quirúrgica a
 author: "Comunicación ADF"
 image: ""
 categories: ["divulgacion"]
+type: "noticias"
 ---
 
 La **Unidad de Cirugía Ortopédica y Traumatología Infantil del Hospital La Fe de Valencia** ha realizado con éxito una intervención quirúrgica a una niña de nuestra asociación con la técnica **Wagner-Finidori-Fassier**.
