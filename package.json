@@ -1,0 +1,1 @@
+{"name": "displasiafibrosa-hugo", "version": "1.0.0", "description": "Hugo site for Asociación de Displasia Fibrosa", "main": "index.js", "scripts": {"build": "bash build-css.sh", "dev": "bash build-css.sh && hugo server -D"}, "devDependencies": {"sass": "^1.69.5"}}
