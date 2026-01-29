@@ -679,19 +679,18 @@ p {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 50%, rgba(43, 45, 117, 0.8));
 }
 
 .collaborate-card-image.socio {
-  background: linear-gradient(135deg, var(--navy-700) 0%, var(--navy-900) 100%);
+  background-image: url('/images/layout/Hazte-Socio-ADF.320x280.jpg');
 }
 
 .collaborate-card-image.voluntario {
-  background: linear-gradient(135deg, var(--orange-400) 0%, var(--orange-600) 100%);
+  background-image: url('/images/layout/Voluntariado-ADF.320x280.jpg');
 }
 
 .collaborate-card-image.donativo {
-  background: linear-gradient(135deg, var(--navy-600) 0%, var(--navy-800) 100%);
+  background-image: url('/images/layout/Donativo-ADF.320x280.jpg');
 }
 
 .collaborate-card-image h3 {
@@ -702,6 +701,9 @@ p {
   font-size: 1.5rem;
   font-weight: 700;
   z-index: 1;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .collaborate-card-content {
