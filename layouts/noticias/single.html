@@ -100,7 +100,7 @@
     {{ $currentPage := . }}
     {{ $related := where (where .Site.RegularPages "Section" "noticias") "Permalink" "ne" .Permalink | first 3 }}
     {{ if $related }}
-    <section class="related-news">
+    <section class="related-news mb-4">
         <h3>Noticias Relacionadas</h3>
         <div class="related-news-grid">
             {{ range $related }}
