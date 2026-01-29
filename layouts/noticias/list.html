@@ -97,12 +97,14 @@
                 {{ $lower_limit = math.Max 1 (sub $upper_limit (sub $max_links 1)) }}
             {{ end }}
             
-            {{ range $lower_limit.Inc $upper_limit }}
+            {{ $pagers := $paginator.Pagers }}
+            {{ range (seq $lower_limit $upper_limit) }}
                 {{ $page := . }}
+                {{ $pager := index $pagers (sub $page 1) }}
                 {{ if eq $page $paginator.PageNumber }}
                 <span class="pagination-current">{{ $page }}</span>
                 {{ else }}
-                <a href="{{ $paginator.URL $page }}" class="pagination-link">{{ $page }}</a>
+                <a href="{{ $pager.URL }}" class="pagination-link">{{ $page }}</a>
                 {{ end }}
             {{ end }}
         </div>
