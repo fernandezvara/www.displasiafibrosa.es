@@ -5,7 +5,7 @@
 
 <div class="container">
     <!-- Back to News -->
-    <a href="{{ "/noticias/" | relURL }}" class="back-to-news mt-4">
+    <a href="{{ "/eventos/noticias/" | relURL }}" class="back-to-news mt-4">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
         </svg>
@@ -54,7 +54,7 @@
             {{ if .Params.categories }}
             <div class="article-categories">
                 {{ range .Params.categories }}
-                {{ $categoryURL := printf "/noticias/categoria/%s/" (. | urlize) }}
+                {{ $categoryURL := printf "/eventos/noticias/categoria/%s/" (. | urlize) }}
                 <a href="{{ $categoryURL | relURL }}" class="category-badge">{{ . }}</a>
                 {{ end }}
             </div>

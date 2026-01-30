@@ -224,4 +224,4 @@ title = 'Asociación de Displasia Fibrosa'
 
 [permalinks]
   [permalinks.term]
-    categories = "/noticias/categoria/:slug/"
+    categories = "/eventos/noticias/categoria/:slug/"
