@@ -197,8 +197,8 @@ title = 'Asociación de Displasia Fibrosa'
     weight = 42
 
   [[menu.main]]
-    name = "Tríptico ADF"
-    url = "/recursos/triptico"
+    name = "Trípticos ADF"
+    url = "/recursos/tripticos"
     parent = "Recursos"
     weight = 43
 
