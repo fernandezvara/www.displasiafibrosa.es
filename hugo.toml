@@ -5,7 +5,7 @@ title = 'Asociación de Displasia Fibrosa'
 [params]
   description = "Asociación de Displasia Fibrosa - Ayudamos a afectados por DF y MAS"
   author = "Asociación de Displasia Fibrosa"
-  logo = "/images/logo.svg"
+  logo = "/images/logo.png"
   
 [menu]
   [[menu.main]]
