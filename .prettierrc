@@ -1,0 +1,19 @@
+{
+  "printWidth": 120,
+  "proseWrap": "preserve",
+  "htmlWhitespaceSensitivity": "ignore",
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "htmlWhitespaceSensitivity": "ignore",
+        "singleAttributePerLine": true,
+        "proseWrap": "preserve",
+        "parser": "angular"
+      }
+    }
+  ]
+}
