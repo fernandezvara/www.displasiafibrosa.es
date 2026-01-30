@@ -1,11 +1,22 @@
 ---
-title: "Colaboradores"
-description: "Conoce a las organizaciones que apoyan nuestra misión"
-introduction: "La Asociación de Displasia Fibrosa agradece enormemente el apoyo de todas las organizaciones, instituciones y empresas que hacen posible nuestro trabajo. Su colaboración nos permite continuar ayudando a las familias afectadas por DF y MAS."
-type: "colaboradores"
-layout: "list"
+title: 'Colaboradores'
+description: 'Conoce a las organizaciones que apoyan nuestra misión'
+layout: 'single'
 show_colabora: true
 ---
+
+{{< alert type="success" >}}
+La Asociación de Displasia Fibrosa agradece enormemente el apoyo de todas las organizaciones, instituciones y empresas que hacen posible nuestro trabajo. Su colaboración nos permite continuar ayudando a las familias afectadas por DF y MAS.
+{{< /alert >}}
+
+{{< cards >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/feder" >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/fundacion-la-caixa" >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/mutua-madrilena" >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/eroski" >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/creer" >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/cinfa" >}}
+{{< /cards >}}
 
 ## Cómo Colaborar
 
@@ -49,10 +60,11 @@ Todos nuestros colaboradores reciben:
 
 Si representas a una organización interesada en colaborar con nosotros, por favor contacta con:
 
-- **Carolina Ibáñez** (Presidenta): info@displasiafibrosa.es
+- {{< userdata file="asociacion/junta-directiva/miembros/carolina-ibanez" >}}
 
 O utiliza nuestro formulario de contacto indicando el tipo de colaboración que te interesa.
 
 ---
 
-_Agradecemos profundamente a todos nuestros colaboradores por hacer posible nuestra misión de mejorar la vida de las personas afectadas por Displasia Fibrosa y Síndrome de McCune-Albright._
+_Agradecemos profundamente a todos nuestros colaboradores por hacer posible nuestra misión de mejorar la vida de las
+personas afectadas por Displasia Fibrosa y Síndrome de McCune-Albright._

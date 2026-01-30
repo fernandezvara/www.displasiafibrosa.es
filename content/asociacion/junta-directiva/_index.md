@@ -1,7 +1,7 @@
 ---
-title: "Junta Directiva"
-description: "Conoce al equipo directivo de la Asociación de Displasia Fibrosa"
-layout: "single"
+title: 'Junta Directiva'
+description: 'Conoce al equipo directivo de la Asociación de Displasia Fibrosa'
+layout: 'single'
 show_colabora: true
 ---
 
@@ -9,10 +9,10 @@ La Junta Directiva de la Asociación de Displasia Fibrosa está formada por un g
 
 Nuestro equipo trabaja de forma voluntaria y dedicada, aportando sus conocimientos y experiencia para servir a la comunidad de afectados por Displasia Fibrosa y Síndrome de McCune-Albright.
 
-{{< usercards >}}
+{{< cards >}}
 {{< usercard file="/asociacion/junta-directiva/miembros/carolina-ibanez" >}}
 {{< usercard file="/asociacion/junta-directiva/miembros/beatriz-mendez" >}}
 {{< usercard file="/asociacion/junta-directiva/miembros/david-hinojosa" >}}
 {{< usercard file="/asociacion/junta-directiva/miembros/jose-mateo" >}}
 {{< usercard file="/asociacion/junta-directiva/miembros/rosa-romero" >}}
-{{< /usercards >}}
+{{< /cards >}}
