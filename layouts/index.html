@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+{{/* Spanish month names */}}
+{{ $monthsES := dict "January" "enero" "February" "febrero" "March" "marzo" "April" "abril" "May" "mayo" "June" "junio" "July" "julio" "August" "agosto" "September" "septiembre" "October" "octubre" "November" "noviembre" "December" "diciembre" }}
+
 <!-- HERO -->
 <section class="hero">
     <div class="container">
@@ -181,7 +184,11 @@
                     {{ end }}
                 </div>
                 <div class="news-card-content">
-                    <div class="news-card-date">{{ .Date.Format "2 January 2006" }}</div>
+                    {{ $day := .Date.Format "2" }}
+                    {{ $monthEN := .Date.Format "January" }}
+                    {{ $monthES := index $monthsES $monthEN }}
+                    {{ $year := .Date.Format "2006" }}
+                    <div class="news-card-date">{{ $day }} de {{ $monthES }} de {{ $year }}</div>
                     <h3 class="news-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     <p class="news-card-excerpt">{{ .Summary }}</p>
                 </div>
