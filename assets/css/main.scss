@@ -278,12 +278,19 @@ p {
   border: none;
   padding: var(--space-1);
   cursor: pointer;
+  position: relative;
+  z-index: 103;
 }
 
 .menu-toggle svg {
   width: 24px;
   height: 24px;
   color: var(--navy-800);
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle.active svg {
+  transform: rotate(90deg);
 }
 
 /* Mobile menu styles */
@@ -291,16 +298,18 @@ p {
   .nav-list {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 85%;
+    max-width: 320px;
     height: 100vh;
     background: var(--white);
     flex-direction: column;
-    padding: var(--space-4);
-    transform: translateX(-100%);
+    padding: var(--space-6) var(--space-4) var(--space-4);
+    transform: translateX(100%);
     transition: transform 0.3s ease;
-    z-index: 1000;
+    z-index: 102;
     overflow-y: auto;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
   }
   
   .nav-list.active {
@@ -309,11 +318,27 @@ p {
   
   .nav-item {
     width: 100%;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  
+  .nav-item:last-child {
+    border-bottom: none;
   }
   
   .nav-link {
-    padding: var(--space-2) var(--space-3);
-    border-bottom: 1px solid var(--gray-200);
+    padding: var(--space-2) 0;
+    font-size: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .nav-link svg {
+    opacity: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-item.dropdown-open .nav-link svg {
+    transform: rotate(180deg);
   }
   
   .dropdown {
@@ -324,11 +349,34 @@ p {
     box-shadow: none;
     border: none;
     background: var(--gray-50);
-    padding-left: var(--space-4);
+    border-radius: var(--radius);
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0;
+    padding: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease, margin-top 0.3s ease;
+  }
+  
+  .nav-item.dropdown-open .dropdown {
+    max-height: 500px;
+    margin-top: var(--space-1);
+    padding: var(--space-2) 0 var(--space-2) var(--space-3);
+  }
+  
+  .dropdown-link {
+    padding: var(--space-1) 0;
+    font-size: 0.9375rem;
   }
   
   .menu-toggle {
     display: block;
+  }
+  
+  .nav .btn-secondary {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    margin-top: var(--space-2);
   }
 }
 
@@ -1787,14 +1835,6 @@ figure figcaption {
 }
 
 @media (max-width: 768px) {
-  .nav-list {
-    display: none;
-  }
-  
-  .menu-toggle {
-    display: block;
-  }
-  
   .hero-title {
     font-size: 2.25rem;
   }

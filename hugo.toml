@@ -208,10 +208,6 @@ title = 'Asociación de Displasia Fibrosa'
     parent = "Recursos"
     weight = 44
     
-  [[menu.main]]
-    name = "Contacto"
-    url = "/contacto/"
-    weight = 38
 
 [pagination]
   pagerSize = 6
