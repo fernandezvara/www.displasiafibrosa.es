@@ -133,33 +133,39 @@ title = 'Asociación de Displasia Fibrosa'
   
   [[menu.main]]
     name = "Congreso Florencia 2019"
-    url = "/recursos/congresos/florencia-2019/"
+    url = "/eventos/congresos/2019/florencia/"
     parent = "Eventos"
     weight = 33
     
   [[menu.main]]
     name = "I Congreso Nacional Burgos 2019"
-    url = "/recursos/congresos/burgos-2019/"
+    url = "/eventos/congresos/2019/burgos/"
     parent = "Eventos"
     weight = 34
     
   [[menu.main]]
     name = "II Congreso Nacional 2021"
-    url = "/recursos/congresos/2021/"
+    url = "/eventos/congresos/2021/burgos/"
     parent = "Eventos"
     weight = 35
     
   [[menu.main]]
     name = "III Congreso Nacional 2022"
-    url = "/recursos/congresos/2022/"
+    url = "/eventos/congresos/2022/burgos/"
     parent = "Eventos"
     weight = 36
     
   [[menu.main]]
     name = "IV Congreso Nacional 2023"
-    url = "/recursos/congresos/2023/"
+    url = "/eventos/congresos/2023/burgos/"
     parent = "Eventos"
     weight = 37
+
+  [[menu.main]]
+    name = "V Congreso Nacional 2024"
+    url = "/eventos/congresos/2024/valencia/"
+    parent = "Eventos"
+    weight = 45
     
   [[menu.main]]
     name = "Recursos"
