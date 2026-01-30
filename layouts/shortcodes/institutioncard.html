@@ -1,0 +1,78 @@
+{{- $file := .Get "file" -}}
+{{- $showPhoto := .Get "show_photo" | default "true" -}}
+{{- $showName := .Get "show_name"| default "true" -}}
+{{- $showPosition := .Get "show_position" | default "true" -}}
+{{- $showContact:= .Get "show_contact" | default "true" -}}
+{{- $data:= .Site.GetPage $file -}}
+{{- if $data -}}
+
+<article class="institution-card">
+  <div class="institution-logo">
+    {{ if $data.Params.photo }}
+    <img
+      src="{{ $data.Params.photo | relURL }}"
+      alt="{{ $data.Params.title }}"
+    />
+    {{ else }}
+    <div class="logo-placeholder">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+        />
+      </svg>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="institution-info">
+    <h3 class="institution-name">
+      {{ if $data.Params.link }}
+      <a
+        href="{{ $data.Params.link }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ $data.Params.title }}
+      </a>
+      {{ else }} {{ $data.Params.title }} {{ end }}
+    </h3>
+
+    {{ if $data.Params.description }}
+    <p class="institution-description">{{ $data.Params.description }}</p>
+    {{ end }} {{ if $data.Params.link }}
+    <a
+      href="{{ $data.Params.link }}"
+      target="_blank"
+      rel="noopener"
+      class="institution-link"
+    >
+      Visitar web
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+        />
+      </svg>
+    </a>
+    {{ end }}
+  </div>
+</article>
+
+{{- else -}}
+<article class="institution-card">Datos no encontrado: {{ $file }}</article>
+{{- end -}}
