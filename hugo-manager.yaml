@@ -1,0 +1,122 @@
+# Hugo Manager Configuration
+# Copy this file to your Hugo project root as hugo-manager.yaml
+
+# Web server settings
+server:
+  port: 8080
+  timeout: 60
+  read_timeout: 30
+  write_timeout: 30
+  idle_timeout: 120
+  cors_origins: ['*']
+  cors_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+  cors_headers: ['Content-Type', 'Authorization']
+  ws_origins: ['*']
+  rate_limit: 0
+  max_request_size: 50
+  enable_auth: false
+  auth_token: ''
+  shutdown_timeout: 30
+
+# Hugo server settings
+hugo:
+  port: 1313
+  auto_start: true
+  disable_fast_render: true
+  additional_args:
+    - '--bind'
+    - '0.0.0.0'
+
+# Editor settings
+editor:
+  theme: one-dark # one-dark, light
+  font_size: 14
+  tab_size: 2
+  word_wrap: true
+  line_numbers: true
+  auto_save: false
+  auto_save_delay: 1000 # milliseconds
+
+# Image processing settings
+images:
+  base_dir: static/images # Base directory for images
+  default_quality: 85 # JPEG quality (1-100)
+  output_format: jpg # jpg, png, webp
+
+  # Folders to show in upload dialog
+  folders:
+    - personas
+    - blog
+    - general
+    - instituciones
+
+  # Size presets for responsive images
+  presets:
+    - name: Full responsive
+      widths: [320, 640, 1024, 1920]
+    - name: Mobile only
+      widths: [320, 640]
+    - name: Desktop only
+      widths: [1024, 1920]
+    - name: Thumbnail
+      widths: [150, 300]
+    - name: Social media
+      widths: [1200]
+    - name: Custom
+      widths: []
+
+# File tree configuration
+file_tree:
+  # Directories to show in the file tree
+  show_dirs:
+    - content
+    - layouts/shortcodes
+    - static
+    - data
+
+  # Files to hide
+  hidden_files:
+    - .DS_Store
+    - Thumbs.db
+    - .gitignore
+
+  # Directories to hide
+  hidden_dirs:
+    - .git
+    - node_modules
+    - public
+    - resources
+
+# Document templates
+templates:
+  content_page:
+    title:
+      type: text
+      default: 'Page Title'
+    description:
+      type: textarea
+      default: ''
+    weight:
+      type: number
+    layout:
+      type: text
+      default: 'single'
+
+  blog_post:
+    title:
+      type: text
+      default: 'Blog Post Title'
+    description:
+      type: textarea
+      default: ''
+    date:
+      type: date
+    author:
+      type: text
+      default: ''
+    tags:
+      type: text
+      default: ''
+    draft:
+      type: bool
+      default: true
