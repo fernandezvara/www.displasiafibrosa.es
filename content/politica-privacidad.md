@@ -4,13 +4,11 @@ description: "Política de privacidad y protección de datos de la Asociación d
 show_colabora: false
 ---
 
-## Política de Privacidad
+### Protección de datos de carácter personal según el RGPD
 
-Protección de datos de carácter personal según el RGPD
+ASOCIACIÓN DE DISPLASIA FIBROSA, en aplicación de la normativa vigente en materia de protección de datos de carácter personal, informa que los datos personales que se recogen a través de los formularios del Sitio web: https://displasiafibrosa.es/, se incluyen en los ficheros específicos de usuarios de los servicios de ASOCIACIÓN DE DISPLASIA FIBROSA.
 
-ASOCIACIÓN DE DISPLASIA FIBROSA, en aplicación de la normativa vigente en materia de protección de datos de carácter personal, informa que los datos personales que se recogen a través de los formularios del Sitio web: https://displasiafibrosa.es/, se incluyen en los ficheros específicos de usuarios de los servicios de ASOCIACIÓN DE DISPLASIA FIBROSA
-
-La recogida y tratamiento automatizado de los datos de carácter personal tiene como finalidad el mantenimiento de la relación comercial y el desempeño de tareas de información, formación, asesoramiento y otras actividades propias de ASOCIACIÓN DE DISPLASIA FIBROSA
+La recogida y tratamiento automatizado de los datos de carácter personal tiene como finalidad el mantenimiento de la relación comercial y el desempeño de tareas de información, formación, asesoramiento y otras actividades propias de ASOCIACIÓN DE DISPLASIA FIBROSA.
 
 Estos datos únicamente serán cedidos a aquellas entidades que sean necesarias con el único objetivo de dar cumplimiento a la finalidad anteriormente expuesta.
 
@@ -18,11 +16,11 @@ ASOCIACIÓN DE DISPLASIA FIBROSA adopta las medidas necesarias para garantizar l
 
 El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación, cancelación, limitación y portabilidad reconocidos en el citado Reglamento (UE). El ejercicio de estos derechos puede realizarlo el propio usuario a través de email a: info@displasiafibrosa.es o en la dirección: Avenida Ibargarai, 5, 4º A, C.P. 20570 – Bergara (Guipúzcoa).
 
-El usuario manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos actualizados, comunicando los cambios a ASOCIACIÓN DE DISPLASIA FIBROSA
+El usuario manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos actualizados, comunicando los cambios a ASOCIACIÓN DE DISPLASIA FIBROSA.
 
-Finalidad del tratamiento de los datos personales:
+### Finalidad del tratamiento de los datos personales
 
-¿Con qué finalidad trataremos tus datos personales?
+**¿Con qué finalidad trataremos tus datos personales?**
 
 En ASOCIACIÓN DE DISPLASIA FIBROSA, trataremos tus datos personales recabados a través del Sitio Web: https://displasiafibrosa.es/, con las siguientes finalidades:
 
@@ -34,7 +32,7 @@ Te recordamos que puedes oponerte al envío de comunicaciones comerciales por cu
 
 Los campos de dichos registros son de cumplimentación obligatoria, siendo imposible realizar las finalidades expresadas si no se aportan esos datos.
 
-¿Por cuánto tiempo se conservan los datos personales recabados?
+**¿Por cuánto tiempo se conservan los datos personales recabados?**
 
 Los datos personales proporcionados se conservarán mientras se mantenga la relación comercial o no solicites su supresión y durante el plazo por el cuál pudieran derivarse responsabilidades legales por los servicios prestados.
 
@@ -60,7 +58,7 @@ ASOCIACIÓN DE DISPLASIA FIBROSA es titular de todos los derechos de autor, prop
 
 No se permite la reproducción, publicación y/o uso no estrictamente privado de los contenidos, totales o parciales, del sitio web https://displasiafibrosa.es/ sin el consentimiento previo y por escrito.
 
-Propiedad intelectual del software
+### Propiedad intelectual del software
 
 El usuario debe respetar los programas de terceros puestos a su disposición por ASOCIACIÓN DE DISPLASIA FIBROSA, aún siendo gratuitos y/o de disposición pública.
 
@@ -70,7 +68,7 @@ El usuario no adquiere derecho alguno o licencia por el servicio contratado, sob
 
 Para toda actuación que exceda del cumplimiento del contrato, el usuario necesitará autorización por escrito por parte de ASOCIACIÓN DE DISPLASIA FIBROSA, quedando prohibido al usuario acceder, modificar, visualizar la configuración, estructura y ficheros de los servidores propiedad de ASOCIACIÓN DE DISPLASIA FIBROSA, asumiendo la responsabilidad civil y penal derivada de cualquier incidencia que se pudiera producir en los servidores y sistemas de seguridad como consecuencia directa de una actuación negligente o maliciosa por su parte.
 
-Propiedad intelectual de los contenidos alojados
+### Propiedad intelectual de los contenidos alojados
 
 Se prohíbe el uso contrario a la legislación sobre propiedad intelectual de los servicios prestados por ASOCIACIÓN DE DISPLASIA FIBROSA y, en particular de:
 
@@ -85,7 +83,7 @@ El usuario es responsable respecto a las leyes y reglamentos en vigor y las regl
 
 El usuario indemnizará a ASOCIACIÓN DE DISPLASIA FIBROSA por los gastos que generara la imputación de ASOCIACIÓN DE DISPLASIA FIBROSA en alguna causa cuya responsabilidad fuera atribuible al usuario, incluidos honorarios y gastos de defensa jurídica, incluso en el caso de una decisión judicial no definitiva.
 
-Protección de la información alojada
+### Protección de la información alojada
 
 ASOCIACIÓN DE DISPLASIA FIBROSA realiza copias de seguridad de los contenidos alojados en sus servidores, sin embargo, no se responsabiliza de la pérdida o el borrado accidental de los datos por parte de los usuarios. De igual manera, no garantiza la reposición total de los datos borrados por los usuarios, ya que los citados datos podrían haber sido suprimidos y/o modificados durante el periodo del tiempo transcurrido desde la última copia de seguridad.
 
@@ -93,7 +91,7 @@ Los servicios ofertados, excepto los servicios específicos de backup, no incluy
 
 La reposición de datos borrados sólo está incluida en el precio del servicio cuando la pérdida del contenido sea debida a causas atribuibles a ASOCIACIÓN DE DISPLASIA FIBROSA.
 
-Comunicaciones comerciales
+### Comunicaciones comerciales
 
 En aplicación de la LSSI. ASOCIACIÓN DE DISPLASIA FIBROSA no enviará comunicaciones publicitarias o promocionales por correo electrónico u otro medio de comunicación electrónica equivalente que previamente no hubieran sido solicitadas o expresamente autorizadas por los destinatarios de estas.
 

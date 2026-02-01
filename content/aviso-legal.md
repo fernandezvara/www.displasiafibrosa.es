@@ -1,6 +1,6 @@
 ---
-title: "Aviso Legal"
-description: "Aviso legal de la Asociación de Displasia Fibrosa"
+title: 'Aviso Legal'
+description: 'Aviso legal de la Asociación de Displasia Fibrosa'
 show_colabora: false
 ---
 
@@ -12,7 +12,6 @@ En cumplimiento con el deber de información recogido en artículo 10 de la Ley 
 - **NIF**: G-75195982
 - **Número de registro**: 615608 (Sección 1ª del Registro Nacional de Asociaciones)
 - **Domicilio social**: Avenida Ibargarai, 5, 4º A, 20570 – Bergara (Guipúzcoa), España
-- **Teléfono**: +34 900 123 456
 - **Email**: info@displasiafibrosa.es
 - **Web**: www.displasiafibrosa.es
 
