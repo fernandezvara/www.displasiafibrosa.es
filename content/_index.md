@@ -4,7 +4,7 @@ description: "Somos una entidad sin ánimo de lucro que congrega a afectados por
 
 # Hero Badge - Evento destacado
 hero_badge:
-  enabled: true
+  enabled: false
   text: "Congreso Internacional DF/MAS Madrid 2025"
   link: "/recursos/congresos/2025/"
 

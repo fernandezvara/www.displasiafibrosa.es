@@ -13,11 +13,9 @@ Todos los vídeos están disponibles en su idioma original (inglés o castellano
 {{< youtube "GKuR5De0ysU" >}}
 **Welcome and Introduction** - **Bienvenida e introducción**
 
-**Carolina Ibáñez**, President of Asociación Displasia Fibrosa
+**Carolina Ibáñez Cortés**, President of Asociación Displasia Fibrosa
 
 **Prof. Natasha Appelman-Dijkstra**, clinical co-director ICFDMAS 
-
----
 
 {{< youtube "mmLBRRhb_PQ" >}}
 
