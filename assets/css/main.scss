@@ -422,15 +422,15 @@ p {
 }
 
 .hero-inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-6);
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // gap: var(--space-6);
   align-items: center;
 }
 
-.hero-content {
-  max-width: 540px;
-}
+// .hero-content {
+//   max-width: 540px;
+// }
 
 .hero-badge {
   display: inline-flex;
