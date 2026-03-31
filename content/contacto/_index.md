@@ -3,7 +3,7 @@ title: "Contacto"
 description: "Contacta con la Asociación de Displasia Fibrosa para obtener información, apoyo o colaborar"
 show_colabora: false
 ---
-
+ 
 ¿Necesitas información, apoyo o quieres colaborar con nosotros? Estamos aquí para ayudarte. Puedes contactarnos a través de diferentes vías según tus necesidades.
 
 ## 📧 Formularios de Contacto

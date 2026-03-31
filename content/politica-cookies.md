@@ -58,65 +58,7 @@ Nos permiten mostrar contenido personalizado:
 | fr             | Marketing | 90 días  | Publicidad de Facebook  |
 | \_fbp          | Marketing | 90 días  | Píxel de Facebook       |
 
-### ¿Cómo Gestionar las Cookies?
 
-#### **Configuración Inicial**
-
-Al visitar nuestro sitio por primera vez, verás un banner donde puedes:
-
-- **Aceptar todas las cookies**
-- **Rechazar las cookies no esenciales**
-- **Personalizar tus preferencias**
-
-#### **Configuración Avanzada**
-
-Puedes cambiar tus preferencias en cualquier momento:
-
-1. Haz clic en el icono de cookies en la esquina inferior derecha
-2. Selecciona "Configurar cookies"
-3. Activa o desactiva las categorías que prefieras
-4. Guarda tus preferencias
-
-#### **Configuración del Navegador**
-
-También puedes gestionar las cookies a través de tu navegador:
-
-##### **Chrome**
-
-1. Haz clic en los tres puntos ⋮
-2. Configuración → Privacidad y seguridad
-3. Cookies y otros datos de sitios
-4. Ver todas las cookies y datos del sitio
-
-##### **Firefox**
-
-1. Haz clic en las tres líneas ≡
-2. Opciones → Privacidad y seguridad
-3. Cookies y datos del sitio
-4. Administrar datos
-
-##### **Safari**
-
-1. Safari → Preferencias
-2. Privacidad → Administrar datos del sitio web
-3. Selecciona nuestro sitio y elimina cookies
-
-##### **Edge**
-
-1. Los tres puntos ⋯ → Configuración
-2. Cookies y permisos del sitio
-3. Ver todas las cookies y datos del sitio
-
-### ¿Qué Ocurre si Rechazas las Cookies?
-
-Si rechazas las cookies no esenciales:
-
-- ✅ **Podrás navegar** por todo el sitio web
-- ✅ **Podrás leer** todo el contenido
-- ✅ **Podrás contactar** con nosotros
-- ❌ **No se registrarán** tus preferencias
-- ❌ **No recibirás** contenido personalizado
-- ❌ **No podremos analizar** tu comportamiento de navegación
 
 ### Cookies de Terceros
 
@@ -154,16 +96,6 @@ Te notificaremos cambios importantes a través de:
 - Banner de cookies actualizado
 - Notificación en nuestro sitio web
 - Comunicación por email (si eres socio)
-
-### Contacto para Cookies
-
-Para cualquier pregunta sobre nuestras cookies:
-
-**Asociación de Displasia Fibrosa**
-
-- **Email**: legal@displasiafibrosa.es
-- **Teléfono**: +34 900 123 456
-- **Dirección**: Calle Principal, Nº 123, 28001 Madrid, España
 
 ### Enlaces Útiles
 

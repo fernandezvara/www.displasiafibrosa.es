@@ -5,7 +5,7 @@ show_colabora: false
 ---
 
 ## Aviso Legal
-
+ 
 En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSICE), el propietario de la web, le informa de lo siguiente:
 
 - **Denominación social**: ASOCIACIÓN DE DISPLASIA FIBROSA

@@ -1,11 +1,12 @@
 ---
 title: "Publicación de 'Un regalo llamado Mateo'"
 date: 2020-12-01
-summary: "¡¡¡Ya está a la venta nuestro cuento infantil Un regalo llamado Mateo!!!"
-author: "Comunicación ADF"
-image: "/images/noticias/2020/un-regalo-llamado-mateo.jpg"
-categories: ["divulgacion"]
-type: "noticias"
+summary: '¡¡¡Ya está a la venta nuestro cuento infantil Un regalo llamado Mateo!!!'
+author: 'Comunicación ADF'
+image: '/images/noticias/2020/un-regalo-llamado-mateo.jpg'
+categories: ['divulgacion']
+type: noticias
+draft: true
 ---
 
 **¡¡¡Ya está a la venta nuestro cuento infantil Un regalo llamado Mateo!!!**

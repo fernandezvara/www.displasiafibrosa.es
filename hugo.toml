@@ -168,6 +168,12 @@ title = 'Asociación de Displasia Fibrosa'
     weight = 45
     
   [[menu.main]]
+    name = "IV Congreso Internacional 2025"
+    url = "/eventos/congresos/2025/iv-international-consortium/"
+    parent = "Eventos"
+    weight = 46
+
+  [[menu.main]]
     name = "Recursos"
     url = "/recursos/"
     weight = 32
