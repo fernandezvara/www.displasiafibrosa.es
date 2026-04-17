@@ -16,6 +16,7 @@ La Asociación de Displasia Fibrosa agradece enormemente el apoyo de todas las o
 {{< institutioncard file="/asociacion/colaboradores/fichas/eroski" >}}
 {{< institutioncard file="/asociacion/colaboradores/fichas/creer" >}}
 {{< institutioncard file="/asociacion/colaboradores/fichas/cinfa" >}}
+{{< institutioncard file="/asociacion/colaboradores/fichas/gob_vasco" >}}
 {{< /cards >}}
 
 ## Cómo Colaborar
