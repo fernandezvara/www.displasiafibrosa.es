@@ -46,7 +46,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
         run: |
-          hugo --minify --gc --baseURL https://displasiafibrosa.999urls.com
+          hugo --minify --gc --baseURL https://www.displasiafibrosa.es
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
