@@ -4,7 +4,6 @@ description: "Contacta con la Asociación de Displasia Fibrosa para obtener info
 show_colabora: false
 ---
 
-# Contacto
 
 ¿Necesitas información o quieres contactar con nosotros? Estamos aquí para ayudarte.
 
