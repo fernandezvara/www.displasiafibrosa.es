@@ -28,6 +28,10 @@ Lo que podría ser un simple ejercicio de nostalgia se convierte en una mirada d
 Más información: [Grupo Tercer Acto](https://grupoterceracto.es/)
 
 
+Consigue tu entrada para el [sábado, 25 de abril - 19:00](https://entradium.com/events/griss-el-reencuentro) o el [domingo, 26 de abril - 12:00](https://entradium.com/events/griss-el-reencuentro-madrid).
+
+
+
 ---
 
 
