@@ -6,7 +6,7 @@ show_colabora: true
 weight: 24
 ---
 
-Traducción de 'Fibrous Dysplasia/McCune-Albright Syndrome-GeneReviews' [Texto original](https://www.ncbi.nlm.nih.gov/books/NBK539662/)
+Traducción de 'Fibrous Dysplasia/McCune-Albright Syndrome-GeneReviews' [Texto original](https://www.ncbi.nlm.nih.gov/books/NBK274564/)
 
 Puedes descargar la guía médica completa en castellano en formato PDF [aquí](/docs/guias-medicas/Guia-Medica-DF-MAS-ES.pdf), también tienes un resumen [aquí](/enfermedad/guia-medica/resumen).
 
