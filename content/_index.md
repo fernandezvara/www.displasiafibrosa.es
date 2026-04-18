@@ -1,12 +1,13 @@
 ---
 title: "Bienvenido a la Asociación de Displasia Fibrosa" 
 description: "Somos una entidad sin ánimo de lucro que congrega a afectados por Displasia Fibrosa y Síndrome de McCune-Albright, familias y personas sensibilizadas."
+show_colabora: true
 
 # Hero Badge - Evento destacado
 hero_badge:
-  enabled: false
+  enabled: true
   text: "Congreso Internacional DF/MAS Madrid 2025"
-  link: "/recursos/congresos/2025/"
+  link: "/eventos/congresos/2025/iv-international-consortium/"
 
 # Botones del hero
 hero_cta_primary:

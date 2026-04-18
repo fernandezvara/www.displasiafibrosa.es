@@ -179,6 +179,11 @@ title = 'Asociación de Displasia Fibrosa'
     weight = 32
 
   [[menu.main]]
+    name = "Haz un Donativo"
+    url = "/haz-un-donativo/"
+    weight = 40
+
+  [[menu.main]]
     name = "Prensa escrita"
     url = "/recursos/prensa-escrita"
     parent = "Recursos"

@@ -406,3 +406,71 @@ if (document.readyState === 'loading') {
     initConsent();
   }
 })();
+
+/**
+ * Donation functionality
+ */
+(function() {
+  // PayPal amount selection
+  const amountButtons = document.querySelectorAll('.amount-btn');
+  const customAmountInput = document.getElementById('custom-amount');
+  const paypalAmountInput = document.getElementById('paypal-amount');
+  
+  if (amountButtons.length > 0) {
+    amountButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        amountButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        customAmountInput.value = '';
+        paypalAmountInput.value = this.dataset.amount;
+      });
+    });
+    
+    customAmountInput.addEventListener('input', function() {
+      amountButtons.forEach(b => b.classList.remove('active'));
+      paypalAmountInput.value = this.value || '10';
+    });
+  }
+  
+  // Copy IBAN functionality
+  window.copyIBAN = function() {
+    const ibanElement = document.getElementById('iban-copy');
+    const copyBtn = document.querySelector('.copy-btn');
+    
+    if (ibanElement) {
+      navigator.clipboard.writeText(ibanElement.textContent).then(function() {
+        copyBtn.classList.add('copied');
+        copyBtn.innerHTML = '¡Copiado!';
+        
+        setTimeout(function() {
+          copyBtn.classList.remove('copied');
+          copyBtn.innerHTML = `
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+            </svg>
+          `;
+        }, 2000);
+      }).catch(function() {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = ibanElement.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        
+        copyBtn.classList.add('copied');
+        copyBtn.innerHTML = '¡Copiado!';
+        
+        setTimeout(function() {
+          copyBtn.classList.remove('copied');
+          copyBtn.innerHTML = `
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+            </svg>
+          `;
+        }, 2000);
+      });
+    }
+  };
+})();

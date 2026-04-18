@@ -1,7 +1,7 @@
 ---
 title: "Política de Privacidad"
 description: "Política de privacidad y protección de datos de la Asociación de Displasia Fibrosa"
-show_colabora: false
+show_colabora: true
 ---
 
 ### Protección de datos de carácter personal según el RGPD

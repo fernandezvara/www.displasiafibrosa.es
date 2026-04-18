@@ -1,7 +1,7 @@
 ---
 title: 'Aviso Legal'
 description: 'Aviso legal de la Asociación de Displasia Fibrosa'
-show_colabora: false
+show_colabora: true
 ---
 
 ## Aviso Legal

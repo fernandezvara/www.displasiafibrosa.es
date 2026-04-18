@@ -1,0 +1,26 @@
+<div class="paypal-donation-section">
+  <h3>¿QUIERES HACER UNA DONACIÓN PUNTUAL CON PAYPAL?</h3>
+  
+  <div class="donation-amounts">
+    <div class="amount-buttons">
+      <button class="amount-btn active" data-amount="10">10&euro;</button>
+      <button class="amount-btn" data-amount="25">25&euro;</button>
+      <button class="amount-btn" data-amount="50">50&euro;</button>
+      <button class="amount-btn" data-amount="100">100&euro;</button>
+      <button class="amount-btn" data-amount="200">200&euro;</button>
+    </div>
+    
+    <div class="custom-amount">
+      <input type="number" id="custom-amount" placeholder="Otra cantidad" min="1">
+      <span class="currency">&euro;</span>
+    </div>
+  </div>
+  
+  <form action="https://www.paypal.com/donate" method="post" target="_top" id="paypal-form">
+    <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID">
+    <input type="hidden" name="amount" id="paypal-amount" value="10">
+    <button type="submit" class="btn btn-primary btn-paypal">Donar con PayPal</button>
+  </form>
+  
+  <p class="paypal-note">PayPal es una forma segura y rápida de hacer tu donación.</p>
+</div>

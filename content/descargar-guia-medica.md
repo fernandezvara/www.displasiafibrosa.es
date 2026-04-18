@@ -1,7 +1,7 @@
 ---
 title: "Descargar Guía Médica"
 description: "Descarga nuestra guía médica actualizada para pacientes con Displasia Fibrosa y Síndrome de McCune-Albright"
-show_colabora: false
+show_colabora: true
 ---
 
 ## Descargar Guía Médica
