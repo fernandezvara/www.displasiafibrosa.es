@@ -8,7 +8,7 @@ show_colabora: false
 
 El dossier del evento está disponible [aquí](/docs/congresos/2025/Congreso-Programa.pdf). 
 
-Todos los vídeos están disponibles en su idioma original (inglés o castellano) con subtítulos.
+Todos los vídeos están disponibles en su idioma original (**inglés o castellano**) con subtítulos.
 
 {{< youtube "GKuR5De0ysU" >}}
 **Welcome and Introduction** - **Bienvenida e introducción**
