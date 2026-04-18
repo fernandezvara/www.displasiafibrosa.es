@@ -16,3 +16,8 @@ Juntos hemos demostrado que la colaboración, el conocimiento compartido y la de
 
 **¡Gracias a todos por hacer posible este importante evento!**
 
+
+## Accede a los contenidos del Congreso
+
+[Ver página del evento](https://displasiafibrosa.es/eventos/congresos/2025/iv-international-consortium/)
+
