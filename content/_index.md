@@ -1,5 +1,6 @@
 ---
-title: "Bienvenido a la Asociación de Displasia Fibrosa" 
+title: "Bienvenido a la Asociación de"
+title2: "Displasia Fibrosa"
 description: "Somos una entidad sin ánimo de lucro que congrega a afectados por Displasia Fibrosa y Síndrome de McCune-Albright, familias y personas sensibilizadas."
 show_colabora: true
 
