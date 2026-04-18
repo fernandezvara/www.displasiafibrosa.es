@@ -515,6 +515,7 @@ p {
   color: var(--navy-800);
   line-height: var(--line-height-tight);
   margin-bottom: var(--space-3);
+  text-align: center;
 }
 
 .hero-title span {
