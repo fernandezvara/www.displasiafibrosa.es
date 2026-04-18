@@ -3,7 +3,7 @@ title: "Matemáticas contra la Displasia Fibrosa: identificación de biomarcador
 date: 2026-01-15
 summary: "La Asociación de Displasia Fibrosa obtiene una ayuda de la Fundación FEDER para la investigación de enfermedades raras (IX Convocatoria de Ayudas a la Investigación de la Fundación FEDER)."
 author: "Comunicación ADF"
-image: ""
+image: "/images/noticias/2026/01/pexels-ian-panelo-4494634.jpg"
 categories: ["investigacion"]
 type: "noticias"
 ---
