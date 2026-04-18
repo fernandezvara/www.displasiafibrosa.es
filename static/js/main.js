@@ -320,3 +320,89 @@ if (document.readyState === 'loading') {
 } else {
   new UserCardManager();
 }
+
+
+/**
+ * Cookie Consent Manager
+ * Handles RGPD-compliant cookie consent with localStorage persistence
+ */
+(function() {
+  const CONSENT_KEY = 'cookie_consent';
+  const BANNER_ID = 'cookie-consent-banner';
+
+  function getConsent() {
+    return localStorage.getItem(CONSENT_KEY);
+  }
+
+  function setConsent(value) {
+    localStorage.setItem(CONSENT_KEY, value);
+  }
+
+  function showBanner() {
+    const banner = document.getElementById(BANNER_ID);
+    if (banner) {
+      banner.hidden = false;
+      banner.style.display = 'block';
+    }
+  }
+
+  function hideBanner() {
+    const banner = document.getElementById(BANNER_ID);
+    if (banner) {
+      banner.hidden = true;
+      banner.style.display = 'none';
+    }
+  }
+
+  function loadGoogleAnalytics() {
+    // Prevent double loading
+    if (window.gtag || window.__gaLoaded) return;
+    window.__gaLoaded = true;
+
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-DR877LB1C6';
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-DR877LB1C6');
+  }
+
+  function initConsent() {
+    const consent = getConsent();
+
+    if (consent === 'accepted') {
+      loadGoogleAnalytics();
+    } else if (consent === null || consent === undefined) {
+      showBanner();
+    }
+    // if 'rejected', do nothing (GA stays disabled)
+  }
+
+  function acceptCookies() {
+    setConsent('accepted');
+    hideBanner();
+    loadGoogleAnalytics();
+  }
+
+  function rejectCookies() {
+    setConsent('rejected');
+    hideBanner();
+  }
+
+  // Expose globally for button onclick handlers
+  window.cookieConsent = {
+    accept: acceptCookies,
+    reject: rejectCookies
+  };
+
+  // Initialize on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initConsent);
+  } else {
+    initConsent();
+  }
+})();

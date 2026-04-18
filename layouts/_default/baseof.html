@@ -30,15 +30,7 @@
     <meta property="twitter:title" content="{{ .Title | default .Site.Title }}">
     <meta property="twitter:description" content="{{ .Description | default .Site.Params.description }}">
     <meta property="twitter:image" content="{{ .Site.Params.logo | absURL }}">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DR877LB1C6"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-DR877LB1C6');
-    </script>
+    <!-- Google Analytics se carga condicionalmente mediante cookie-consent.js -->
 </head>
 <body>
     {{ partial "header.html" . }}
@@ -56,7 +48,10 @@
     {{ end }}
     
     {{ partial "footer.html" . }}
-    
+
+    <!-- Cookie Consent Banner -->
+    {{ partial "cookie-consent.html" . }}
+
     <!-- JavaScript -->
     <script src="{{ "/js/main.js" | relURL }}"></script>
 </body>

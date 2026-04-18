@@ -1,10 +1,8 @@
 ---
 title: "Política de Cookies"
 description: "Política de cookies de la Asociación de Displasia Fibrosa"
-show_colabora: false
+show_colabora: true
 ---
-
-## Política de Cookies
 
 **Información sobre el uso de cookies en el sitio web de la Asociación de Displasia Fibrosa**
 
@@ -18,69 +16,46 @@ Las cookies son pequeños archivos de texto que los sitios web almacenan en tu d
 
 Son cookies necesarias para el funcionamiento básico del sitio web:
 
-- **Cookie de sesión**: Mantiene tu sesión activa
-- **Cookie de seguridad**: Protege contra ataques CSRF
-- **Cookie de preferencias**: Recuerda tus elecciones de privacidad
+- **cookie_consent**: Almacena tu decisión sobre el consentimiento de cookies (1 año)
 
-#### **Cookies Analíticas**
+#### **Cookies Analíticas (solo con tu consentimiento)**
 
-Nos ayudan a entender cómo utilizas nuestro sitio web:
+Nos ayudan a entender cómo utilizas nuestro sitio web. **Solo se instalan si aceptas explícitamente.**
 
 - **Google Analytics**: Analiza el tráfico y el comportamiento de los usuarios
-- **Estadísticas de uso**: Mide las páginas más visitadas y tiempo de navegación
-- **Datos geográficos**: Conoce la ubicación de nuestros visitantes
-
-#### **Cookies de Funcionalidad**
-
-Mejoran tu experiencia de navegación:
-
-- **Cookie de idioma**: Recuerda tu preferencia de idioma
-- **Cookie de diseño**: Guarda tus preferencias de visualización
-- **Cookie de búsqueda**: Recuerda tus búsquedas recientes
-
-#### **Cookies de Marketing y Redes Sociales**
-
-Nos permiten mostrar contenido personalizado:
-
-- **Facebook Pixel**: Para campañas de concienciación
-- **Twitter Cookies**: Para compartir contenido
-- **Instagram Cookies**: Para mostrar contenido de nuestra cuenta
+  - `_ga`: Distingue usuarios (2 años)
+  - `_gid`: Distingue sesiones (24 horas)
+  - `_gat`: Limita solicitudes (1 minuto)
 
 ### Información Detallada de Cookies
 
-| Nombre         | Tipo      | Duración | Finalidad               |
-| -------------- | --------- | -------- | ----------------------- |
-| session_id     | Esencial  | Sesión   | Mantener sesión activa  |
-| cookie_consent | Esencial  | 1 año    | Recordar consentimiento |
-| \_ga           | Analítica | 2 años   | Distinguir usuarios     |
-| \_gid          | Analítica | 24 horas | Distinguir sesiones     |
-| \_gat          | Analítica | 1 minuto | Limitar solicitudes     |
-| fr             | Marketing | 90 días  | Publicidad de Facebook  |
-| \_fbp          | Marketing | 90 días  | Píxel de Facebook       |
-
-
+| Nombre         | Tipo      | Duración | Finalidad                            |
+| -------------- | --------- | -------- | ------------------------------------ |
+| cookie_consent | Esencial  | 1 año    | Recordar tu consentimiento de cookies |
+| _ga            | Analítica | 2 años   | Distinguir usuarios (solo con consentimiento) |
+| _gid           | Analítica | 24 horas | Distinguir sesiones (solo con consentimiento) |
+| _gat           | Analítica | 1 minuto | Limitar solicitudes (solo con consentimiento) |
 
 ### Cookies de Terceros
 
-Nuestro sitio web utiliza servicios de terceros que instalan sus propias cookies:
-
 #### **Google Analytics**
 
-- **Finalidad**: Análisis de tráfico y comportamiento
+Utilizamos Google Analytics para analizar el tráfico de nuestro sitio web. **Estas cookies solo se instalan si das tu consentimiento explícito haciendo clic en "Aceptar" en nuestro banner de cookies.**
+
+- **Finalidad**: Análisis de tráfico y comportamiento de usuarios
 - **Política**: [Política de privacidad de Google](https://policies.google.com/privacy)
 - **Configuración**: [Herramienta de opt-out de Google](https://tools.google.com/dlpage/gaoptout)
 
-#### **Facebook/Meta**
+### Gestión de Consentimiento
 
-- **Finalidad**: Marketing y redes sociales
-- **Política**: [Política de datos de Meta](https://www.facebook.com/policy.php)
-- **Configuración**: [Configuración de anuncios de Facebook](https://www.facebook.com/ads/preferences/)
+Cuando visitas nuestro sitio web por primera vez, te mostramos un banner de cookies donde puedes:
 
-#### **Twitter/X**
+- **Aceptar**: Permitir el uso de cookies analíticas (Google Analytics)
+- **Rechazar**: Solo usar cookies esenciales (consentimiento almacenado en localStorage)
 
-- **Finalidad**: Compartir contenido y marketing
-- **Política**: [Política de privacidad de X](https://twitter.com/privacy)
-- **Configuración**: [Configuración de anuncios de X](https://twitter.com/settings/ads_preferences)
+Tu elección se almacena en el `localStorage` de tu navegador bajo la clave `cookie_consent` y permanece vigente durante 1 año, o hasta que borres los datos de navegación.
+
+Puedes cambiar tu decisión en cualquier momento borrando los datos de navegación de tu navegador.
 
 ### Actualizaciones de la Política
 
@@ -105,7 +80,7 @@ Te notificaremos cambios importantes a través de:
 
 ---
 
-_Última actualización: 15 de enero de 2024_
+_Última actualización: 18 de abril de 2026_
 
 Esta política cumple con:
 

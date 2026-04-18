@@ -11,7 +11,7 @@ En cumplimiento con el deber de información recogido en artículo 10 de la Ley 
 - **Denominación social**: ASOCIACIÓN DE DISPLASIA FIBROSA
 - **NIF**: G-75195982
 - **Número de registro**: 615608 (Sección 1ª del Registro Nacional de Asociaciones)
-- **Domicilio social**: Avenida Ibargarai, 5, 4º A, 20570 – Bergara (Guipúzcoa), España
+- **Domicilio social**: C/ Fraiskozuri Plaza, 6, bajo, 20570 – Bergara (Guipúzcoa), España
 - **Email**: info@displasiafibrosa.es
 - **Web**: www.displasiafibrosa.es
 
@@ -27,7 +27,9 @@ Los textos, imágenes, sonidos, animaciones, software y el resto de los contenid
 
 Asimismo, para acceder a algunos de los servicios que ASOCIACIÓN DE DISPLASIA FIBROSA ofrece a través del sitio web, deberá proporcionar algunos datos de carácter personal. En cumplimiento de lo establecido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos le informamos que, mediante la cumplimentación de los presentes formularios, sus datos personales quedarán incorporados y serán tratados en los ficheros de ASOCIACIÓN DE DISPLASIA FIBROSA con el fin de poderle prestar y ofrecer nuestros servicios así como para informarle de las mejoras del sitio Web.
 
-Le informamos también de que tendrá la posibilidad en todo momento de ejercer los derechos de acceso, rectificación, cancelación, oposición, limitación y portabilidad de sus datos de carácter personal, de manera gratuita mediante email a: info@displasiafibrosa.es o en la dirección: Avenida Ibargarai, 5, 4º A, 20570 – Bergara (Guipúzcoa).
+Le informamos también de que tendrá la posibilidad en todo momento de ejercer los derechos de acceso, rectificación, cancelación, oposición, limitación y portabilidad de sus datos de carácter personal, de manera gratuita mediante email a: info@displasiafibrosa.es o en la dirección: C/ Fraiskozuri Plaza, 6, bajo, 20570 – Bergara (Guipúzcoa), España.
+
+Para información sobre el uso de cookies y su gestión de consentimiento, consulte nuestra [Política de Cookies](/politica-cookies) y [Política de Privacidad](/politica-privacidad).
 
 REV: 20.3009
 

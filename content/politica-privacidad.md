@@ -14,7 +14,7 @@ Estos datos únicamente serán cedidos a aquellas entidades que sean necesarias 
 
 ASOCIACIÓN DE DISPLASIA FIBROSA adopta las medidas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos conforme a lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de los mismos, y derogando la antigua LOPD, la nueva Ley Orgánica 3/2018, de 5 diciembre, de Protección de Datos y Garantía de los Derechos Digitales (LOPDGDD).
 
-El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación, cancelación, limitación y portabilidad reconocidos en el citado Reglamento (UE). El ejercicio de estos derechos puede realizarlo el propio usuario a través de email a: info@displasiafibrosa.es o en la dirección: Avenida Ibargarai, 5, 4º A, C.P. 20570 – Bergara (Guipúzcoa).
+El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación, cancelación, limitación y portabilidad reconocidos en el citado Reglamento (UE). El ejercicio de estos derechos puede realizarlo el propio usuario a través de email a: info@displasiafibrosa.es o en la dirección: C/ Fraiskozuri Plaza, 6, bajo, 20570 – Bergara (Guipúzcoa), España.
 
 El usuario manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos actualizados, comunicando los cambios a ASOCIACIÓN DE DISPLASIA FIBROSA.
 
@@ -43,6 +43,18 @@ El tratamiento de tus datos se realiza con las siguientes bases jurídicas que l
 La solicitud de información y/o la contratación de los servicios de ASOCIACIÓN DE DISPLASIA FIBROSA, cuyos términos y condiciones se pondrán a tu disposición en todo caso, de forma previa a una eventual contratación.
 El consentimiento libre, específico, informado e inequívoco, en tanto que te informamos poniendo a tu disposición la presente política de privacidad, que tras la lectura de la misma, en caso de estar conforme, puedes aceptar mediante una declaración o una clara acción afirmativa, como el marcado de una casilla dispuesta al efecto.
 En caso de que no nos facilites tus datos o lo hagas de forma errónea o incompleta, no podremos atender tu solicitud, resultando del todo imposible proporcionarte la información solicitada o llevar a cabo la contratación de los servicios.
+
+### Consentimiento de Cookies (RGPD)
+
+En cumplimiento del Reglamento General de Protección de Datos (RGPD) y la Ley de Servicios de la Sociedad de la Información (LSSI), nuestro sitio web implementa un sistema de consentimiento de cookies:
+
+- **Mecanismo de consentimiento**: Al visitar nuestro sitio, se te presenta un banner donde puedes aceptar o rechazar el uso de cookies analíticas (Google Analytics).
+- **Almacenamiento de la elección**: Tu decisión se almacena en el `localStorage` de tu navegador bajo la clave `cookie_consent`, sin enviar datos a ningún servidor.
+- **Duración**: El consentimiento se conserva durante 1 año o hasta que borres los datos de navegación de tu navegador.
+- **Revocación**: Puedes revocar tu consentimiento en cualquier momento borrando los datos de navegación de tu navegador.
+- **Cookies esenciales**: El único dato almacenado sin consentimiento previo es tu elección sobre el consentimiento mismo (`cookie_consent`).
+
+Para más información, consulta nuestra [Política de Cookies](/politica-cookies).
 
 Destinatarios:
 
@@ -103,4 +115,4 @@ REV: 20.3009
 
 ---
 
-_Esta política de privacidad está actualizada a fecha de 15 de enero de 2024._
+_Esta política de privacidad está actualizada a fecha de 18 de abril de 2026._
