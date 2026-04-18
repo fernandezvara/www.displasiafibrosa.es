@@ -11,6 +11,7 @@ El Comité Científico de la ADF está formado por profesionales de la salud y o
 {{< usercard file="/personas/diana-ovejero" >}}
 {{< usercard file="/personas/ana-maria-bueno" >}}
 {{< usercard file="/personas/beatriz-lecumberri" >}}
+{{< usercard file="/personas/diego-alonso-garcia" >}}
 {{< usercard file="/personas/giomar-perez" >}}
 {{< usercard file="/personas/irene-tarjuelo" >}}
 {{< usercard file="/personas/javier-marquez" >}}
