@@ -13,9 +13,6 @@ Nuestras memorias de actividades incluyen:
 - **Actividades realizadas** durante el año
 - **Eventos organizados** y participados
 - **Proyectos desarrollados**
-- **Resultados obtenidos** **(TODO: revisar)**
-- **Situación económica** y financiera **(TODO: revisar, hay dos entradas en el menu, unificamos?)**
-- **Plan de acción** para el siguiente ejercicio **(TODO: revisar)**
 
 ## Transparencia
 
@@ -25,7 +22,7 @@ Como entidad sin ánimo de lucro, mantenemos un compromiso total de transparenci
 
 Nuestras memorias más recientes están disponibles para consulta y reflejan el crecimiento y consolidación de nuestra asociación en el apoyo a personas afectadas por Displasia Fibrosa y Síndrome de McCune-Albright.
 
-Enlaces a los ficheros:
+<!-- Enlaces a los ficheros:
 
 - [Memoria de Actividades 2018](/docs/memorias/memoria-de-actividades-adf-2018.pdf)
 - [Memoria de Actividades 2019](/docs/memorias/memoria-de-actividades-adf-2019.pdf)
@@ -34,7 +31,7 @@ Enlaces a los ficheros:
 - [Memoria de Actividades 2022](/docs/memorias/memoria-de-actividades-adf-2022.pdf)
 - [Memoria de Actividades 2023](/docs/memorias/memoria-de-actividades-adf-2023.pdf)
 - [Memoria de Actividades 2024](/docs/memorias/memoria-de-actividades-adf-2024.pdf)
-- [Memoria de Actividades 2025](/docs/memorias/memoria-de-actividades-adf-2025.pdf)
+- [Memoria de Actividades 2025](/docs/memorias/memoria-de-actividades-adf-2025.pdf) -->
 
 ---
 
